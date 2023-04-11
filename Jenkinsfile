@@ -22,9 +22,11 @@ pipeline {
                     def scannerHome = tool 'SonarScanner';
                     withSonarQubeEnv() {
                         //bat "${scannerHome}/bin/sonar-scanner.bat"
-                        powershell "dotnet " + "${scannerHome}/bin/sonar-scanner.bat" + " begin"
-                        powershell "dotnet build"
-                        powershell "dotnet " + "${scannerHome}/bin/sonar-scanner.bat" + " end"
+                        // powershell "dotnet " + "${scannerHome}/bin/sonar-scanner.bat" + " begin"
+                        // powershell "dotnet build"
+                        // powershell "dotnet " + "${scannerHome}/bin/sonar-scanner.bat" + " end"
+
+                        bat 'my_sonar_analysis.bat'
                       
                       /*
 dotnet "${scannerHome}/bin/sonar-scanner.bat" begin

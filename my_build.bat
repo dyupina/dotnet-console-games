@@ -1,1 +1,1 @@
-"C:\\Program Files\\dotnet\\dotnet.exe" build
+"C:\Program Files\dotnet\dotnet.exe" build
