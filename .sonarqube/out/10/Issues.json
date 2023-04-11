@@ -1,0 +1,216 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Компилятор Microsoft (R) Visual C#",
+        "version": "4.5.0.0",
+        "fileVersion": "4.5.0-6.23127.3 (e2bc27d2)",
+        "semanticVersion": "4.5.0",
+        "language": "ru-RU"
+      },
+      "results": [
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Ball' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "region": {
+                  "startLine": 199,
+                  "startColumn": 14,
+                  "endLine": 199,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 15,
+                  "endLine": 201,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 15,
+                  "endLine": 202,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 15,
+                  "endLine": 203,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 15,
+                  "endLine": 204,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2184",
+          "level": "warning",
+          "message": "Cast one of the operands of this division to 'float'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "region": {
+                  "startLine": 165,
+                  "startColumn": 12,
+                  "endLine": 165,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2184",
+          "level": "warning",
+          "message": "Cast one of the operands of this division to 'float'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "region": {
+                  "startLine": 166,
+                  "startColumn": 12,
+                  "endLine": 166,
+                  "endColumn": 22
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S2184": {
+          "id": "S2184",
+          "shortDescription": "Results of integer division should not be assigned to floating point variables",
+          "fullDescription": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2184",
+          "properties": {
+            "category": "Minor Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
