@@ -15,27 +15,42 @@ pipeline {
             }
         }
 
+
+
+/*
+
+
+
+
+node {
+  stage('SCM') {
+    checkout scm
+  }
+  stage('SonarQube Analysis') {
+    def msbuildHome = tool 'Default MSBuild'
+    def scannerHome = tool 'SonarScanner for MSBuild'
+    withSonarQubeEnv() {
+      bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" begin /k:\"Games\""
+      bat "\"${msbuildHome}\\MSBuild.exe\" /t:Rebuild"
+      bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" end"
+    }
+  }
+}
+
+
+*/
+
         stage('SonarQube Analysis') {
             steps {
                 script 
                 {
-                    def scannerHome = tool 'SonarScanner';
+                    def msbuildHome = tool 'Default MSBuild'
+                    def scannerHome = tool 'SonarScanner for MSBuild'
                     withSonarQubeEnv() {
-                        //bat "${scannerHome}/bin/sonar-scanner.bat"
-                        // powershell "dotnet " + "${scannerHome}/bin/sonar-scanner.bat" + " begin"
-                        // powershell "dotnet build"
-                        // powershell "dotnet " + "${scannerHome}/bin/sonar-scanner.bat" + " end"
-
-                        bat 'my_sonar_analysis.bat'
-                      
-                      /*
-dotnet "${scannerHome}/bin/sonar-scanner.bat" begin
-dotnet build
-dotnet "${scannerHome}/bin/sonar-scanner.bat" end
-                      */
-                      
-                      
-                    }    
+                        bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" begin /k:\"Games\""
+                        bat "\"${msbuildHome}\\MSBuild.exe\" /t:Rebuild"
+                        bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" end"
+                    }  
                 }
                 
             }
