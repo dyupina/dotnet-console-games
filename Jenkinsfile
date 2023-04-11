@@ -51,13 +51,19 @@ node {
                         // bat "\"${msbuildHome}\\MSBuild.exe\" \".\\Projects\\2048\\2048.csproj\" /t:Rebuild"
                         // bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" end"
 
-
+                        bat 'my_sonar_analysis.bat'
                         
 
 
-                        bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll begin /k:\"Games\""
-                        bat "dotnet build"
-                        bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll end"
+                        // bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll begin /k:\"Games\""
+                        // bat "dotnet build"
+                        // bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll end"
+
+
+                        /*
+
+
+                        */
 
 
                     }  
