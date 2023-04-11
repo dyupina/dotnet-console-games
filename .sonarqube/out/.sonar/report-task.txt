@@ -2,5 +2,5 @@ projectKey=Games
 serverUrl=https://1194-192-145-16-189.ngrok-free.app
 serverVersion=9.5.0.56709
 dashboardUrl=https://1194-192-145-16-189.ngrok-free.app/dashboard?id=Games
-ceTaskId=AYdxYYj6btZoOT-55Ymq
-ceTaskUrl=https://1194-192-145-16-189.ngrok-free.app/api/ce/task?id=AYdxYYj6btZoOT-55Ymq
+ceTaskId=AYdxZU6dbtZoOT-55Ymr
+ceTaskUrl=https://1194-192-145-16-189.ngrok-free.app/api/ce/task?id=AYdxZU6dbtZoOT-55Ymr
