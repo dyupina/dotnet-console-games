@@ -2,13 +2,13 @@ pipeline {
     agent any
 
     stages {
-        /*stage('Build') {
+        stage('Build') {
             steps {
                 bat 'my_build.bat' 
                 
             }
         }
-*/
+
         stage('SCM') {
             steps {
                 checkout scm
