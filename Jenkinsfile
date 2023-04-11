@@ -47,9 +47,19 @@ node {
                     def msbuildHome = tool 'Default MSBuild'
                     def scannerHome = tool 'SonarScanner for MSBuild'
                     withSonarQubeEnv() {
-                        bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" begin /k:\"Games\""
-                        bat "\"${msbuildHome}\\MSBuild.exe\" \".\\Projects\\2048\\2048.csproj\" /t:Rebuild"
-                        bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" end"
+                        // bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" begin /k:\"Games\""
+                        // bat "\"${msbuildHome}\\MSBuild.exe\" \".\\Projects\\2048\\2048.csproj\" /t:Rebuild"
+                        // bat "\"${scannerHome}\\SonarScanner.MSBuild.exe\" end"
+
+
+                        
+
+
+                        bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll begin /k:\"Games\""
+                        bat "dotnet build"
+                        bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll end"
+
+
                     }  
                 }
                 
