@@ -2,14 +2,7 @@ rem "C:\Program Files\dotnet\dotnet.exe" build
 
 
 
-"C:\Program Files\dotnet\dotnet.exe" sonarscanner begin
+"C:\Program Files\dotnet\dotnet.exe" sonarscanner begin /k:"Games" /d:sonar.host.url="https://1194-192-145-16-189.ngrok-free.app"  /d:sonar.login="sqa_24a2660ebf59e3807546526b8cf527c7991e4929"
 "C:\Program Files\dotnet\dotnet.exe" build
-"C:\Program Files\dotnet\dotnet.exe" sonarscanner end
+"C:\Program Files\dotnet\dotnet.exe" sonarscanner end /d:sonar.login="sqa_24a2660ebf59e3807546526b8cf527c7991e4929"
 
-rem dotnet sonarscanner begin
-rem dotnet build
-rem dotnet sonarscanner end 
-
-rem dotnet sonarscanner begin /k:"123k" /d:sonar.host.url="http://127.0.0.1:9000"  /d:sonar.login="sqp_2184f1f144696fbb2a68cacf3203818496121fc2"
-rem dotnet build
-rem dotnet sonarscanner end /d:sonar.login="sqp_2184f1f144696fbb2a68cacf3203818496121fc2"

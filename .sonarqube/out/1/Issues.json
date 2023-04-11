@@ -14,16 +14,16 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Ball' into a named namespace.",
+          "message": "Move 'Player' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 199,
-                  "startColumn": 14,
-                  "endLine": 199,
-                  "endColumn": 18
+                  "startLine": 406,
+                  "startColumn": 7,
+                  "endLine": 406,
+                  "endColumn": 13
                 }
               }
             }
@@ -33,17 +33,38 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Move 'Bullet' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 201,
-                  "startColumn": 15,
-                  "endLine": 201,
+                  "startLine": 412,
+                  "startColumn": 7,
+                  "endLine": 412,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Explosion' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
+                "region": {
+                  "startLine": 419,
+                  "startColumn": 7,
+                  "endLine": 419,
                   "endColumn": 16
                 }
               }
@@ -54,18 +75,18 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Rename class 'UFO' to match pascal case naming rules, consider using 'Ufo'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 202,
-                  "startColumn": 15,
-                  "endLine": 202,
-                  "endColumn": 16
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
+                  "endColumn": 10
                 }
               }
             }
@@ -75,18 +96,18 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Move 'UFO' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 203,
-                  "startColumn": 15,
-                  "endLine": 203,
-                  "endColumn": 17
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
+                  "endColumn": 10
                 }
               }
             }
@@ -96,60 +117,18 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S1121",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Extract the assignment of 'bulletFrame' from this expression.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 204,
-                  "startColumn": 15,
-                  "endLine": 204,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2184",
-          "level": "warning",
-          "message": "Cast one of the operands of this division to 'float'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 165,
-                  "startColumn": 12,
-                  "endLine": 165,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2184",
-          "level": "warning",
-          "message": "Cast one of the operands of this division to 'float'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 166,
-                  "startColumn": 12,
-                  "endLine": 166,
-                  "endColumn": 22
+                  "startLine": 216,
+                  "startColumn": 27,
+                  "endLine": 216,
+                  "endColumn": 28
                 }
               }
             }
@@ -160,30 +139,31 @@
         }
       ],
       "rules": {
-        "S1104": {
-          "id": "S1104",
-          "shortDescription": "Fields should not have public accessibility",
-          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "TestSourceScope"
             ]
           }
         },
-        "S2184": {
-          "id": "S2184",
-          "shortDescription": "Results of integer division should not be assigned to floating point variables",
-          "fullDescription": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
+        "S1121": {
+          "id": "S1121",
+          "shortDescription": "Assignments should not be made from within sub-expressions",
+          "fullDescription": "Assignments within sub-expressions are hard to spot and therefore make the code less readable. Ideally, sub-expressions should not have side-effects.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2184",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1121",
           "properties": {
-            "category": "Minor Bug",
+            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

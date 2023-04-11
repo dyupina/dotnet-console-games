@@ -1,4 +1,4 @@
-b
-YC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Tower Of Hanoi\Program.csutf-8ì
-áC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Tower Of Hanoi\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8Ç
-wC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Tower Of Hanoi\obj\Debug\Tower Of Hanoi.AssemblyInfo.csutf-8
+^
+UC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Battleship\Program.csutf-8è
+ÉC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Battleship\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8z
+oC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Battleship\obj\Debug\Battleship.AssemblyInfo.csutf-8

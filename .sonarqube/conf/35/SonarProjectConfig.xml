@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SonarProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/analyzer/2021/1">
   <AnalysisConfigPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
-  <ProjectPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Guess A Number\Guess A Number.csproj</ProjectPath>
+  <ProjectPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Tents\Tents.csproj</ProjectPath>
   <FilesToAnalyzePath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\conf\35\FilesToAnalyze.txt</FilesToAnalyzePath>
   <OutPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\out\35</OutPath>
   <ProjectType>Product</ProjectType>

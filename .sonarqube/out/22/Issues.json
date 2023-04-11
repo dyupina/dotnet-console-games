@@ -54,27 +54,6 @@
           }
         },
         {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 22,
-                  "endLine": 11,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2386",
           "level": "warning",
           "message": "Use an immutable collection or reduce the accessibility of the public static field 'IdleLeft'.",
@@ -117,18 +96,39 @@
           }
         },
         {
-          "ruleId": "S2368",
+          "ruleId": "S1118",
           "level": "warning",
-          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Maps.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
                 "region": {
-                  "startLine": 5,
-                  "startColumn": 23,
-                  "endLine": 5,
-                  "endColumn": 39
+                  "startLine": 11,
+                  "startColumn": 22,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
+                "region": {
+                  "startLine": 92,
+                  "startColumn": 3,
+                  "endLine": 92,
+                  "endColumn": 4
                 }
               }
             }
@@ -159,18 +159,18 @@
           }
         },
         {
-          "ruleId": "S1199",
+          "ruleId": "S2368",
           "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
+          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Maps.cs",
                 "region": {
-                  "startLine": 92,
-                  "startColumn": 3,
-                  "endLine": 92,
-                  "endColumn": 4
+                  "startLine": 5,
+                  "startColumn": 23,
+                  "endLine": 5,
+                  "endColumn": 39
                 }
               }
             }

@@ -1,4 +1,4 @@
-`
-WC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Whack A Mole\Program.csutf-8‘
-…C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Whack A Mole\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8~
-sC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Whack A Mole\obj\Debug\Whack A Mole.AssemblyInfo.csutf-8
+Z
+QC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Sudoku\Program.csutf-8Š
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Sudoku\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8r
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Sudoku\obj\Debug\Sudoku.AssemblyInfo.csutf-8

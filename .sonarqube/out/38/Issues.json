@@ -14,99 +14,15 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Card' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 548,
-                  "startColumn": 7,
-                  "endLine": 548,
-                  "endColumn": 11
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'PlayerHand' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 598,
-                  "startColumn": 7,
-                  "endLine": 598,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Suit' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 606,
-                  "startColumn": 6,
-                  "endLine": 606,
-                  "endColumn": 10
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Value' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 614,
-                  "startColumn": 6,
-                  "endLine": 614,
-                  "endColumn": 11
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
           "message": "Move 'State' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
                 "region": {
-                  "startLine": 631,
+                  "startLine": 229,
                   "startColumn": 6,
-                  "endLine": 631,
+                  "endLine": 229,
                   "endColumn": 11
                 }
               }
@@ -123,11 +39,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
                 "region": {
-                  "startLine": 157,
+                  "startLine": 39,
                   "startColumn": 12,
-                  "endLine": 157,
+                  "endLine": 39,
                   "endColumn": 16
                 }
               }
@@ -138,18 +54,123 @@
           }
         },
         {
-          "ruleId": "S3267",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Loop should be simplified by calling Select(card => card.Value))",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
                 "region": {
-                  "startLine": 342,
-                  "startColumn": 24,
-                  "endLine": 342,
+                  "startLine": 66,
+                  "startColumn": 12,
+                  "endLine": 66,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "region": {
+                  "startLine": 88,
+                  "startColumn": 25,
+                  "endLine": 88,
                   "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 26,
+                  "endLine": 89,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "region": {
+                  "startLine": 98,
+                  "startColumn": 26,
+                  "endLine": 98,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "region": {
+                  "startLine": 100,
+                  "startColumn": 12,
+                  "endLine": 100,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "region": {
+                  "startLine": 179,
+                  "startColumn": 4,
+                  "endLine": 179,
+                  "endColumn": 8
                 }
               }
             }
@@ -160,22 +181,6 @@
         }
       ],
       "rules": {
-        "S3267": {
-          "id": "S3267",
-          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
-          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope"
-            ]
-          }
-        },
         "S3903": {
           "id": "S3903",
           "shortDescription": "Types should be defined in named namespaces",

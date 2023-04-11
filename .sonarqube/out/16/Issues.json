@@ -18,12 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Hangman/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Whack%20A%20Mole/Program.cs",
                 "region": {
-                  "startLine": 409,
-                  "startColumn": 3,
-                  "endLine": 409,
-                  "endColumn": 7
+                  "startLine": 64,
+                  "startColumn": 12,
+                  "endLine": 64,
+                  "endColumn": 16
                 }
               }
             }
@@ -39,33 +39,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Hangman/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Whack%20A%20Mole/Program.cs",
                 "region": {
-                  "startLine": 453,
-                  "startColumn": 25,
-                  "endLine": 453,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Hangman/Program.cs",
-                "region": {
-                  "startLine": 455,
-                  "startColumn": 11,
-                  "endLine": 455,
-                  "endColumn": 15
+                  "startLine": 102,
+                  "startColumn": 13,
+                  "endLine": 102,
+                  "endColumn": 17
                 }
               }
             }

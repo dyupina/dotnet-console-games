@@ -14,15 +14,57 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'State' into a named namespace.",
+          "message": "Move 'Ship' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 229,
+                  "startLine": 472,
                   "startColumn": 6,
-                  "endLine": 229,
+                  "endLine": 472,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
+                "region": {
+                  "startLine": 450,
+                  "startColumn": 9,
+                  "endLine": 452,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
+                "region": {
+                  "startLine": 183,
+                  "startColumn": 7,
+                  "endLine": 183,
                   "endColumn": 11
                 }
               }
@@ -39,11 +81,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 39,
+                  "startLine": 465,
                   "startColumn": 12,
-                  "endLine": 39,
+                  "endLine": 465,
                   "endColumn": 16
                 }
               }
@@ -54,123 +96,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S1751",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Refactor the containing loop to do more than one iteration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 66,
-                  "startColumn": 12,
-                  "endLine": 66,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
-                "region": {
-                  "startLine": 88,
-                  "startColumn": 25,
-                  "endLine": 88,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
-                "region": {
-                  "startLine": 89,
-                  "startColumn": 26,
-                  "endLine": 89,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
-                "region": {
-                  "startLine": 98,
-                  "startColumn": 26,
-                  "endLine": 98,
-                  "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
-                "region": {
-                  "startLine": 100,
-                  "startColumn": 12,
-                  "endLine": 100,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tower%20Of%20Hanoi/Program.cs",
-                "region": {
-                  "startLine": 179,
-                  "startColumn": 4,
-                  "endLine": 179,
-                  "endColumn": 8
+                  "startLine": 192,
+                  "startColumn": 3,
+                  "endLine": 192,
+                  "endColumn": 12
                 }
               }
             }
@@ -181,6 +118,40 @@
         }
       ],
       "rules": {
+        "S1751": {
+          "id": "S1751",
+          "shortDescription": "Loops with at most one iteration should be refactored",
+          "fullDescription": "A loop with at most one iteration is equivalent to the use of an if statement to conditionally execute one piece of code. If the initial intention of the author was really to conditionally execute one piece of code, an if statement should be used instead. If that was not the initial intention of the author, the body of the loop should be fixed to use the nested return, break or throw statements in a more appropriate way.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1751",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
         "S3903": {
           "id": "S3903",
           "shortDescription": "Types should be defined in named namespaces",

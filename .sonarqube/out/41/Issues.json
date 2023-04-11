@@ -96,6 +96,27 @@
           }
         },
         {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'ScreenWidth' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 638,
+                  "startColumn": 20,
+                  "endLine": 638,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S3903",
           "level": "warning",
           "message": "Move 'Sprites' into a named namespace.",
@@ -140,27 +161,6 @@
         {
           "ruleId": "S2223",
           "level": "warning",
-          "message": "Change the visibility of 'ScreenWidth' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 638,
-                  "startColumn": 20,
-                  "endLine": 638,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
           "message": "Change the visibility of 'CrosshairHeight' or make it 'const' or 'readonly'.",
           "locations": [
             {
@@ -192,27 +192,6 @@
                   "startColumn": 21,
                   "endLine": 665,
                   "endColumn": 35
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'Crosshair' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 658,
-                  "startColumn": 24,
-                  "endLine": 658,
-                  "endColumn": 33
                 }
               }
             }
@@ -308,37 +287,16 @@
         {
           "ruleId": "S2223",
           "level": "warning",
-          "message": "Change the visibility of 'Bush' or make it 'const' or 'readonly'.",
+          "message": "Change the visibility of 'Crosshair' or make it 'const' or 'readonly'.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
                 "region": {
-                  "startLine": 667,
+                  "startLine": 658,
                   "startColumn": 24,
-                  "endLine": 667,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'Tree' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 677,
-                  "startColumn": 24,
-                  "endLine": 677,
-                  "endColumn": 28
+                  "endLine": 658,
+                  "endColumn": 33
                 }
               }
             }
@@ -390,48 +348,6 @@
           }
         },
         {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'LeftSprites' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 704,
-                  "startColumn": 26,
-                  "endLine": 704,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'RightSprites' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 727,
-                  "startColumn": 26,
-                  "endLine": 727,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S2486",
           "level": "warning",
           "message": "Handle the exception or explain in a comment why it can be ignored.",
@@ -465,6 +381,90 @@
                   "startColumn": 6,
                   "endLine": 528,
                   "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'Tree' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 677,
+                  "startColumn": 24,
+                  "endLine": 677,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'Bush' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 667,
+                  "startColumn": 24,
+                  "endLine": 667,
+                  "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'RightSprites' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 727,
+                  "startColumn": 26,
+                  "endLine": 727,
+                  "endColumn": 38
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'LeftSprites' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 704,
+                  "startColumn": 26,
+                  "endLine": 704,
+                  "endColumn": 37
                 }
               }
             }
