@@ -5,6 +5,7 @@ pipeline {
         stage('Build') {
             steps {
                 // bat 'my_build.bat' 
+                bat 'echo sf'
                 
             }
         }
