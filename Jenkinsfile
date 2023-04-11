@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                powershell 'dotnet build' 
+                powershell '"C:\\Program Files\\dotnet\\dotnet.exe" build' 
             }
         }
 
