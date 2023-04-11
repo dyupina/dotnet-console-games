@@ -1,0 +1,2 @@
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Guess A Number\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Guess A Number\README.md
