@@ -1,0 +1,3 @@
+Ì
+SC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Beep Pad\Program.csã 8DjrÄ	
+ !"#$%&'(*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`acdefghijklmnopqrstuvwxyz{|}~ÄÅÇÉÑÖáàâäãåçéêëíìîïñóòôöõúûü†°¢£§•ß®©™´¨≠ÆØ∞≤≥¥µ∂∑∏π∫ªºΩæø¿¡√ƒ≈∆«»…xXÇÑ "#$&',-.012346789;<=>?@ABCDEFHJLMNOPQRTUVWX^_`efghijklmnopqsuvwxyz{|}~ÄÅÇÉÑâäãåç†¢£©™¨≠Ø¥∂πªΩ¿≈«

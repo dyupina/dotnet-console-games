@@ -1,0 +1,3 @@
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Hangman\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Hangman\Words.txt
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Hangman\README.md
