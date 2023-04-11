@@ -52,8 +52,11 @@ node {
                         // bat 'my_sonar_analysis.bat'
                         
 
-                        bat "\"${scannerHome}\\sonarscanner\" "
+                        // bat "\"${scannerHome}\\bin\\sonar-scanner\" "
 
+                        // bat '\"${scannerHome}\\bin\\sonar-scanner\" begin /k:"Games" /d:sonar.host.url="https://1194-192-145-16-189.ngrok-free.app"  /d:sonar.login="sqa_24a2660ebf59e3807546526b8cf527c7991e4929"'
+                        // bat 'dotnet build'
+                        // bat '\"${scannerHome}\\bin\\sonar-scanner\" end /d:sonar.login="sqa_24a2660ebf59e3807546526b8cf527c7991e4929"'
 
                         // bat 'dotnet sonarscanner begin /k:"Games" /d:sonar.host.url="https://1194-192-145-16-189.ngrok-free.app"  /d:sonar.login="sqa_24a2660ebf59e3807546526b8cf527c7991e4929"'
                         // bat 'dotnet build'
@@ -67,9 +70,9 @@ dotnet sonarscanner end /d:sonar.login="sqp_b4b78b82a622dd656910d4b95a50049ce899
 */  
 
 
-                        // bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll begin /k:\"Games\""
-                        // bat "dotnet build"
-                        // bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll end"
+                        bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll begin /k:\"Games\""
+                        bat "dotnet build"
+                        bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll end"
 
 
                         /*
