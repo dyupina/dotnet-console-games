@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>2048</ProjectName>
+  <ProjectName>Sliding Puzzle</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>52e8bfd3-9f2a-4375-9f51-48bd1c88f274</ProjectGuid>
-  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\2048\2048.csproj</FullPath>
+  <ProjectGuid>a86abb40-dafc-4ed2-8f67-b782ecfd2022</ProjectGuid>
+  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Sliding Puzzle\Sliding Puzzle.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\conf\29\FilesToAnalyze.txt" />

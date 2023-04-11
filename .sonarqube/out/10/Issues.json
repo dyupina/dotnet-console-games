@@ -14,142 +14,142 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Ball' into a named namespace.",
+          "message": "Move 'Direction' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tanks/Program.cs",
                 "region": {
-                  "startLine": 199,
+                  "startLine": 475,
+                  "startColumn": 6,
+                  "endLine": 475,
+                  "endColumn": 15
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Tank' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tanks/Program.cs",
+                "region": {
+                  "startLine": 484,
+                  "startColumn": 7,
+                  "endLine": 484,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Bullet' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tanks/Program.cs",
+                "region": {
+                  "startLine": 497,
+                  "startColumn": 7,
+                  "endLine": 497,
+                  "endColumn": 13
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tanks/Program.cs",
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 9,
+                  "endLine": 359,
+                  "endColumn": 61
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tanks/Program.cs",
+                "region": {
+                  "startLine": 360,
+                  "startColumn": 9,
+                  "endLine": 360,
+                  "endColumn": 58
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tanks/Program.cs",
+                "region": {
+                  "startLine": 373,
+                  "startColumn": 6,
+                  "endLine": 375,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2245",
+          "level": "warning",
+          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tanks/Program.cs",
+                "region": {
+                  "startLine": 115,
                   "startColumn": 14,
-                  "endLine": 199,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 201,
-                  "startColumn": 15,
-                  "endLine": 201,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 202,
-                  "startColumn": 15,
-                  "endLine": 202,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 203,
-                  "startColumn": 15,
-                  "endLine": 203,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 204,
-                  "startColumn": 15,
-                  "endLine": 204,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2184",
-          "level": "warning",
-          "message": "Cast one of the operands of this division to 'float'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 165,
-                  "startColumn": 12,
-                  "endLine": 165,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2184",
-          "level": "warning",
-          "message": "Cast one of the operands of this division to 'float'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 166,
-                  "startColumn": 12,
-                  "endLine": 166,
-                  "endColumn": 22
+                  "endLine": 115,
+                  "endColumn": 26
                 }
               }
             }
@@ -160,30 +160,31 @@
         }
       ],
       "rules": {
-        "S1104": {
-          "id": "S1104",
-          "shortDescription": "Fields should not have public accessibility",
-          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+        "S2245": {
+          "id": "S2245",
+          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
+          "fullDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive. For example, it has led in the past to the following vulnerabilities:",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
           "properties": {
-            "category": "Minor Code Smell",
+            "category": "Critical Security Hotspot",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "NotConfigurable"
             ]
           }
         },
-        "S2184": {
-          "id": "S2184",
-          "shortDescription": "Results of integer division should not be assigned to floating point variables",
-          "fullDescription": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2184",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
           "properties": {
-            "category": "Minor Bug",
+            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

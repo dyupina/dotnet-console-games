@@ -1,2 +1,2 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Connect 4\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Connect 4\README.md
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\README.md

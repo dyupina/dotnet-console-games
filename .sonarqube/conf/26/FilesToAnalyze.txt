@@ -1,2 +1,2 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Flappy Bird\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Flappy Bird\README.md
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\README.md

@@ -4,8 +4,8 @@
   <SonarOutputDir>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\out</SonarOutputDir>
   <SonarBinDir>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\bin</SonarBinDir>
   <SonarScannerWorkingDirectory>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline</SonarScannerWorkingDirectory>
-  <HasBeginStepCommandLineCredentials>true</HasBeginStepCommandLineCredentials>
-  <SonarQubeHostUrl>https://1194-192-145-16-189.ngrok-free.app</SonarQubeHostUrl>
+  <HasBeginStepCommandLineCredentials>false</HasBeginStepCommandLineCredentials>
+  <SonarQubeHostUrl>http://localhost:9000</SonarQubeHostUrl>
   <SonarQubeVersion>9.5.0.56709</SonarQubeVersion>
   <SonarProjectKey>Games</SonarProjectKey>
   <AdditionalConfig>
@@ -14,7 +14,7 @@
     <ConfigSetting Id="VsCoverageConverterToolPath" />
     <ConfigSetting Id="UnchangedFilesPath" />
     <ConfigSetting Id="sonar.pullrequest.cache.basepath" Value="C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline" />
-    <ConfigSetting Id="settings.file.path" Value="C:\Users\Alexandra\.dotnet\tools\.store\dotnet-sonarscanner\5.13.0\dotnet-sonarscanner\5.13.0\tools\net5.0\any\SonarQube.Analysis.xml" />
+    <ConfigSetting Id="settings.file.path" Value="C:\ProgramData\Jenkins\.jenkins\tools\hudson.plugins.sonar.MsBuildSQRunnerInstallation\SonarScanner_for_MSBuild\SonarQube.Analysis.xml" />
   </AdditionalConfig>
   <ServerSettings>
     <Property Name="sonaranalyzer-cs.nuget.packageVersion">8.40.0.48530</Property>
@@ -114,9 +114,7 @@
     <Property Name="sonar.core.id">147B411E-AYdqKmCiHWiHWPkJiUmk</Property>
     <Property Name="sonar.core.startTime">11.04.2023 10:01:20</Property>
   </ServerSettings>
-  <LocalSettings>
-    <Property Name="sonar.host.url">https://1194-192-145-16-189.ngrok-free.app</Property>
-  </LocalSettings>
+  <LocalSettings />
   <AnalyzersSettings>
     <AnalyzerSettings>
       <Language>cs</Language>
@@ -125,20 +123,20 @@
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="8.40.0.48530" StaticResourceName="SonarAnalyzer-8.40.0.48530.zip">
           <AssemblyPaths>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\Google.Protobuf.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.CFG.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.CSharp.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\THIRD-PARTY-NOTICES.txt</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\Google.Protobuf.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\SonarAnalyzer.CFG.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\SonarAnalyzer.CSharp.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\SonarAnalyzer.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
         <AnalyzerPlugin Key="vbnet" Version="8.40.0.48530" StaticResourceName="SonarAnalyzer-8.40.0.48530.zip">
           <AssemblyPaths>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\Google.Protobuf.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.CFG.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.VisualBasic.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\THIRD-PARTY-NOTICES.txt</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\Google.Protobuf.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\SonarAnalyzer.CFG.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\SonarAnalyzer.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\SonarAnalyzer.VisualBasic.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
       </AnalyzerPlugins>
@@ -153,20 +151,20 @@
       <AnalyzerPlugins>
         <AnalyzerPlugin Key="csharp" Version="8.40.0.48530" StaticResourceName="SonarAnalyzer-8.40.0.48530.zip">
           <AssemblyPaths>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\Google.Protobuf.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.CFG.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.CSharp.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\SonarAnalyzer.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\0\THIRD-PARTY-NOTICES.txt</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\Google.Protobuf.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\SonarAnalyzer.CFG.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\SonarAnalyzer.CSharp.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\SonarAnalyzer.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\0\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
         <AnalyzerPlugin Key="vbnet" Version="8.40.0.48530" StaticResourceName="SonarAnalyzer-8.40.0.48530.zip">
           <AssemblyPaths>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\Google.Protobuf.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.CFG.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\SonarAnalyzer.VisualBasic.dll</Path>
-            <Path>C:\Users\Alexandra\AppData\Local\Temp\.sonarqube\resources\1\THIRD-PARTY-NOTICES.txt</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\Google.Protobuf.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\SonarAnalyzer.CFG.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\SonarAnalyzer.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\SonarAnalyzer.VisualBasic.dll</Path>
+            <Path>C:\Windows\SystemTemp\.sonarqube\resources\1\THIRD-PARTY-NOTICES.txt</Path>
           </AssemblyPaths>
         </AnalyzerPlugin>
       </AnalyzerPlugins>

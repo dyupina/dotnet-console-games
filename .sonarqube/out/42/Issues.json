@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S907",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Move 'Statics' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Checkers/Statics.cs",
                 "region": {
-                  "startLine": 45,
-                  "startColumn": 44,
-                  "endLine": 45,
-                  "endColumn": 48
+                  "startLine": 1,
+                  "startColumn": 21,
+                  "endLine": 1,
+                  "endColumn": 28
                 }
               }
             }
@@ -33,18 +33,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S112",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "'System.Exception' should not be thrown by user code.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Checkers/Board.cs",
                 "region": {
-                  "startLine": 47,
-                  "startColumn": 13,
-                  "endLine": 47,
-                  "endColumn": 17
+                  "startLine": 93,
+                  "startColumn": 11,
+                  "endLine": 93,
+                  "endColumn": 128
                 }
               }
             }
@@ -54,18 +54,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S3358",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Extract this nested ternary operation into an independent statement.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Checkers/Program.cs",
                 "region": {
-                  "startLine": 69,
-                  "startColumn": 26,
-                  "endLine": 69,
-                  "endColumn": 30
+                  "startLine": 183,
+                  "startColumn": 3,
+                  "endLine": 184,
+                  "endColumn": 4
                 }
               }
             }
@@ -75,18 +75,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S3358",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Extract this nested ternary operation into an independent statement.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Checkers/Program.cs",
                 "region": {
-                  "startLine": 71,
-                  "startColumn": 12,
-                  "endLine": 71,
-                  "endColumn": 16
+                  "startLine": 192,
+                  "startColumn": 3,
+                  "endLine": 193,
+                  "endColumn": 27
                 }
               }
             }
@@ -97,14 +97,47 @@
         }
       ],
       "rules": {
-        "S907": {
-          "id": "S907",
-          "shortDescription": "\"goto\" statement should not be used",
-          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
+        "S112": {
+          "id": "S112",
+          "shortDescription": "General exceptions should never be thrown",
+          "fullDescription": "Throwing such general exceptions as Exception, SystemException, ApplicationException, IndexOutOfRangeException, NullReferenceException, OutOfMemoryException and ExecutionEngineException prevents calling methods from handling true, system-generated exceptions differently than application-generated errors.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-112",
           "properties": {
             "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "properties": {
+            "category": "Major Bug",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S3903",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Move 'Move' into a named namespace.",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rock%20Paper%20Scissors/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
                 "region": {
-                  "startLine": 49,
-                  "startColumn": 6,
-                  "endLine": 49,
-                  "endColumn": 10
+                  "startLine": 156,
+                  "startColumn": 26,
+                  "endLine": 156,
+                  "endColumn": 30
                 }
               }
             }
@@ -39,12 +39,222 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rock%20Paper%20Scissors/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
                 "region": {
-                  "startLine": 21,
-                  "startColumn": 62,
-                  "endLine": 21,
-                  "endColumn": 66
+                  "startLine": 158,
+                  "startColumn": 12,
+                  "endLine": 158,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 321,
+                  "startColumn": 78,
+                  "endLine": 321,
+                  "endColumn": 82
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 322,
+                  "startColumn": 93,
+                  "endLine": 322,
+                  "endColumn": 97
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 323,
+                  "startColumn": 76,
+                  "endLine": 323,
+                  "endColumn": 80
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 326,
+                  "startColumn": 12,
+                  "endLine": 326,
+                  "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 341,
+                  "startColumn": 4,
+                  "endLine": 341,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 345,
+                  "startColumn": 4,
+                  "endLine": 345,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 390,
+                  "startColumn": 5,
+                  "endLine": 390,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 396,
+                  "startColumn": 4,
+                  "endLine": 396,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 411,
+                  "startColumn": 3,
+                  "endLine": 411,
+                  "endColumn": 7
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3626",
+          "level": "warning",
+          "message": "Remove this redundant jump.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Yahtzee/Program.cs",
+                "region": {
+                  "startLine": 310,
+                  "startColumn": 14,
+                  "endLine": 310,
+                  "endColumn": 21
                 }
               }
             }
@@ -55,14 +265,14 @@
         }
       ],
       "rules": {
-        "S3903": {
-          "id": "S3903",
-          "shortDescription": "Types should be defined in named namespaces",
-          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+        "S3626": {
+          "id": "S3626",
+          "shortDescription": "Jump statements should not be redundant",
+          "fullDescription": "Jump statements, such as return, yield break, goto, and continue let you change the default flow of program execution, but jump statements that direct the control flow to the original direction are just a waste of keystrokes.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3626",
           "properties": {
-            "category": "Major Bug",
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -1,4 +1,12 @@
-X
-OC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\Program.csutf-8à
-}C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8n
-cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\obj\Debug\Draw.AssemblyInfo.csutf-8
+Z
+QC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Board.csutf-8Y
+PC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Game.csutf-8Y
+PC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Move.csutf-8Z
+QC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Piece.csutf-8_
+VC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\PieceColor.csutf-8[
+RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Player.csutf-8\
+SC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Program.csutf-8\
+SC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Statics.csutf-8[
+RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\_using.csutf-8ç
+ÅC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8v
+kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\obj\Debug\Checkers.AssemblyInfo.csutf-8

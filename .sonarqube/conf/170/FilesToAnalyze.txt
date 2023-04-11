@@ -1,3 +1,0 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Wordle\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Wordle\FiveLetterWords.txt
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Wordle\README.md

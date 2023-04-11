@@ -1,4 +1,4 @@
-[
-RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Fighter\Program.csutf-8å
-ÄC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Fighter\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8t
-iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Fighter\obj\Debug\Fighter.AssemblyInfo.csutf-8
+_
+VC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Tic Tac Toe\Program.csutf-8ê
+ÑC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Tic Tac Toe\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8|
+qC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Tic Tac Toe\obj\Debug\Tic Tac Toe.AssemblyInfo.csutf-8

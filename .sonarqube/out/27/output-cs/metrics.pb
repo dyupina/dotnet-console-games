@@ -1,3 +1,4 @@
-æ
-WC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Whack A Mole\Program.csa 8Lr¯	
- !#%&'()+,-./0123456789:;<=>?@ABDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|~€‚ƒ„…†‡ˆ‰Š‹Ž‘’“”•–—˜™š›œx>‚P#%'(+-./01345689:;<=>?@FGHIJMNOQRSUVXYZ[\]^_`abcdefhjklmnqrstuvwxyz{‘“•™
+é	
+RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Mancala\Program.cs… 
+8Ärá	
+ !"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\]^_`abcdefghijklmnopqrstuvwxyz{|}€‚ƒ„…†‡ˆ‰ŠŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÐÑÒÓÔÕÖ×ØÙÚÛÜÞßàáâãäæçèéêëìíîïðñóôõö÷øùúûüýþÿ€‚ƒ„…†‡ˆŠ‹ŒŽ‘’“”•–—˜™š›œžŸ ¡¢£¤¥¦§¨©ª«¬­®¯°±²³´µ¶·¸¹º»¼½¾¿ÀÁÂÃÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞßàáâãäåæçèéêëìíîïðñòóôõö÷øùúûüýþ€‚ƒ„…†‡ˆ‰Š‹ŒŽ‘’“”•–—˜™š›žŸ ¡¢£¤¥¦§¨©ª«¬­®¯°²³´µ¶·¸¹º»¼x‚‚¢ "#%&()+,-/0234679:;?ABCEGHIJKLNPQRSTUVWY[\]^_`bdefghjklmotuyz{|‚ƒ„…‡ˆ‘’”–—™ £¥¦§¨«®°±²³¶¸º¿ÀÂÃÅÇÈÊÌÓÕ×ÚÛâãèêìíïõöùúüýþÿ€‚ƒ„…†Š‹‘’“”•–˜™›ž ¢£¤¥¦§¨©«­®¯³µ·º¼¾¿ÀÁÂÄÅÆÇÈÉÊËÌÍÎÏÐÑÒÓÔÕÖ×ØÙÚÛÜÝÞàáåæèéêìîðôö÷ùúûüý‚ƒ†ˆ‰‹‘’“”—˜™ ¢¤¨ª¬¯

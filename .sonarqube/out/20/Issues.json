@@ -14,78 +14,15 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Player' into a named namespace.",
+          "message": "Move 'Move' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rock%20Paper%20Scissors/Program.cs",
                 "region": {
-                  "startLine": 406,
-                  "startColumn": 7,
-                  "endLine": 406,
-                  "endColumn": 13
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Bullet' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
-                "region": {
-                  "startLine": 412,
-                  "startColumn": 7,
-                  "endLine": 412,
-                  "endColumn": 13
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Explosion' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
-                "region": {
-                  "startLine": 419,
-                  "startColumn": 7,
-                  "endLine": 419,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S101",
-          "level": "warning",
-          "message": "Rename class 'UFO' to match pascal case naming rules, consider using 'Ufo'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
-                "region": {
-                  "startLine": 426,
-                  "startColumn": 7,
-                  "endLine": 426,
+                  "startLine": 49,
+                  "startColumn": 6,
+                  "endLine": 49,
                   "endColumn": 10
                 }
               }
@@ -96,39 +33,18 @@
           }
         },
         {
-          "ruleId": "S3903",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Move 'UFO' into a named namespace.",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rock%20Paper%20Scissors/Program.cs",
                 "region": {
-                  "startLine": 426,
-                  "startColumn": 7,
-                  "endLine": 426,
-                  "endColumn": 10
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1121",
-          "level": "warning",
-          "message": "Extract the assignment of 'bulletFrame' from this expression.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
-                "region": {
-                  "startLine": 216,
-                  "startColumn": 27,
-                  "endLine": 216,
-                  "endColumn": 28
+                  "startLine": 21,
+                  "startColumn": 62,
+                  "endLine": 21,
+                  "endColumn": 66
                 }
               }
             }
@@ -139,40 +55,6 @@
         }
       ],
       "rules": {
-        "S101": {
-          "id": "S101",
-          "shortDescription": "Types should be named in PascalCase",
-          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1121": {
-          "id": "S1121",
-          "shortDescription": "Assignments should not be made from within sub-expressions",
-          "fullDescription": "Assignments within sub-expressions are hard to spot and therefore make the code less readable. Ideally, sub-expressions should not have side-effects.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1121",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
         "S3903": {
           "id": "S3903",
           "shortDescription": "Types should be defined in named namespaces",
@@ -181,6 +63,23 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
           "properties": {
             "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S907": {
+          "id": "S907",
+          "shortDescription": "\"goto\" statement should not be used",
+          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
+          "properties": {
+            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>Helicopter</ProjectName>
+  <ProjectName>Rock Paper Scissors</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>71bb3d33-f6ce-46fd-b36a-7d323f4934c2</ProjectGuid>
-  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Helicopter\Helicopter.csproj</FullPath>
+  <ProjectGuid>03669942-4a7a-4675-9d7a-507b7b85c5f5</ProjectGuid>
+  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Rock Paper Scissors\Rock Paper Scissors.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\conf\20\FilesToAnalyze.txt" />

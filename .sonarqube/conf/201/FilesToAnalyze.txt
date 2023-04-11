@@ -1,2 +1,0 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\PacMan\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\PacMan\README.md

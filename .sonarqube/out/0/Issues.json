@@ -12,164 +12,17 @@
       },
       "results": [
         {
-          "ruleId": "S3903",
+          "ruleId": "S125",
           "level": "warning",
-          "message": "Move 'Direction' into a named namespace.",
+          "message": "Remove this commented out code.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 199,
+                  "startLine": 198,
                   "startColumn": 6,
-                  "endLine": 199,
-                  "endColumn": 15
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Tile' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 207,
-                  "startColumn": 6,
-                  "endLine": 207,
-                  "endColumn": 10
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1116",
-          "level": "warning",
-          "message": "Remove this empty statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 2,
-                  "endLine": 37,
-                  "endColumn": 3
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1116",
-          "level": "warning",
-          "message": "Remove this empty statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 83,
-                  "startColumn": 3,
-                  "endLine": 83,
-                  "endColumn": 4
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1116",
-          "level": "warning",
-          "message": "Remove this empty statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 148,
-                  "startColumn": 3,
-                  "endLine": 148,
-                  "endColumn": 4
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 33,
-                  "startColumn": 23,
-                  "endLine": 33,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 23,
-                  "endLine": 34,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 38,
-                  "endLine": 35,
+                  "endLine": 198,
                   "endColumn": 42
                 }
               }
@@ -180,18 +33,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Move 'Program' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 36,
-                  "startColumn": 32,
-                  "endLine": 36,
-                  "endColumn": 36
+                  "startLine": 5,
+                  "startColumn": 7,
+                  "endLine": 5,
+                  "endColumn": 14
                 }
               }
             }
@@ -201,18 +54,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S1940",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Use the opposite operator ('<') instead.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 82,
-                  "startColumn": 33,
-                  "endLine": 82,
-                  "endColumn": 37
+                  "startLine": 125,
+                  "startColumn": 9,
+                  "endLine": 131,
+                  "endColumn": 7
                 }
               }
             }
@@ -222,18 +75,31 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S1862",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "This branch duplicates the one on line 245.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 141,
-                  "startColumn": 24,
-                  "endLine": 141,
-                  "endColumn": 28
+                  "startLine": 250,
+                  "startColumn": 14,
+                  "endLine": 250,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 9,
+                  "endLine": 245,
+                  "endColumn": 70
                 }
               }
             }
@@ -243,18 +109,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S1199",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Extract this nested code block into a separate method.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 142,
-                  "startColumn": 24,
-                  "endLine": 142,
-                  "endColumn": 28
+                  "startLine": 485,
+                  "startColumn": 4,
+                  "endLine": 485,
+                  "endColumn": 5
                 }
               }
             }
@@ -264,39 +130,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S1199",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Extract this nested code block into a separate method.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 147,
-                  "startColumn": 33,
-                  "endLine": 147,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 177,
-                  "startColumn": 2,
-                  "endLine": 177,
-                  "endColumn": 6
+                  "startLine": 505,
+                  "startColumn": 4,
+                  "endLine": 505,
+                  "endColumn": 5
                 }
               }
             }
@@ -307,12 +152,63 @@
         }
       ],
       "rules": {
-        "S1116": {
-          "id": "S1116",
-          "shortDescription": "Empty statements should be removed",
-          "fullDescription": "Empty statements, i.e. ;, are usually introduced by mistake, for example because:",
+        "S1199": {
+          "id": "S1199",
+          "shortDescription": "Nested code blocks should not be used",
+          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1116",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1862": {
+          "id": "S1862",
+          "shortDescription": "Related \"if/else if\" statements should not have the same condition",
+          "fullDescription": "A chain of if/else if statements is evaluated from top to bottom. At most, only one branch will be executed: the first one with a condition that evaluates to true.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1862",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1940": {
+          "id": "S1940",
+          "shortDescription": "Boolean checks should not be inverted",
+          "fullDescription": "It is needlessly complex to invert the result of a boolean comparison. The opposite comparison should be made instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1940",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
@@ -332,23 +228,6 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
           "properties": {
             "category": "Major Bug",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S907": {
-          "id": "S907",
-          "shortDescription": "\"goto\" statement should not be used",
-          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
-          "properties": {
-            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

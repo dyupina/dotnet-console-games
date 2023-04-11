@@ -18,12 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Type/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Bound/Program.cs",
                 "region": {
-                  "startLine": 146,
-                  "startColumn": 6,
-                  "endLine": 146,
-                  "endColumn": 10
+                  "startLine": 1651,
+                  "startColumn": 5,
+                  "endLine": 1651,
+                  "endColumn": 9
                 }
               }
             }
@@ -33,18 +33,81 @@
           }
         },
         {
-          "ruleId": "S1751",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Refactor the containing loop to do more than one iteration.",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Type/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Bound/Program.cs",
                 "region": {
-                  "startLine": 151,
-                  "startColumn": 4,
-                  "endLine": 151,
-                  "endColumn": 13
+                  "startLine": 1709,
+                  "startColumn": 7,
+                  "endLine": 1709,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Bound/Program.cs",
+                "region": {
+                  "startLine": 1715,
+                  "startColumn": 7,
+                  "endLine": 1715,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Bound/Program.cs",
+                "region": {
+                  "startLine": 1725,
+                  "startColumn": 7,
+                  "endLine": 1725,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Bound/Program.cs",
+                "region": {
+                  "startLine": 1774,
+                  "startColumn": 13,
+                  "endLine": 1774,
+                  "endColumn": 17
                 }
               }
             }
@@ -55,23 +118,6 @@
         }
       ],
       "rules": {
-        "S1751": {
-          "id": "S1751",
-          "shortDescription": "Loops with at most one iteration should be refactored",
-          "fullDescription": "A loop with at most one iteration is equivalent to the use of an if statement to conditionally execute one piece of code. If the initial intention of the author was really to conditionally execute one piece of code, an if statement should be used instead. If that was not the initial intention of the author, the body of the loop should be fixed to use the nested return, break or throw statements in a more appropriate way.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1751",
-          "properties": {
-            "category": "Major Bug",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
         "S907": {
           "id": "S907",
           "shortDescription": "\"goto\" statement should not be used",

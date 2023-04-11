@@ -1,5 +1,0 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Character.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Maps.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Sprites.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\README.md

@@ -11,47 +11,7 @@
         "language": "ru-RU"
       },
       "results": [
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tic%20Tac%20Toe/Program.cs",
-                "region": {
-                  "startLine": 56,
-                  "startColumn": 13,
-                  "endLine": 56,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        }
-      ],
-      "rules": {
-        "S907": {
-          "id": "S907",
-          "shortDescription": "\"goto\" statement should not be used",
-          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        }
-      }
+      ]
     }
   ]
 }

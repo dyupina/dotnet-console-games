@@ -18,12 +18,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
                 "region": {
-                  "startLine": 39,
-                  "startColumn": 6,
-                  "endLine": 39,
-                  "endColumn": 10
+                  "startLine": 45,
+                  "startColumn": 44,
+                  "endLine": 45,
+                  "endColumn": 48
                 }
               }
             }
@@ -39,12 +39,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
                 "region": {
-                  "startLine": 46,
-                  "startColumn": 6,
-                  "endLine": 46,
-                  "endColumn": 10
+                  "startLine": 47,
+                  "startColumn": 13,
+                  "endLine": 47,
+                  "endColumn": 17
                 }
               }
             }
@@ -60,116 +60,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
                 "region": {
-                  "startLine": 50,
-                  "startColumn": 7,
-                  "endLine": 50,
-                  "endColumn": 11
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 65,
-                  "startColumn": 14,
-                  "endLine": 65,
-                  "endColumn": 18
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 72,
-                  "startColumn": 5,
-                  "endLine": 72,
-                  "endColumn": 9
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 93,
-                  "startColumn": 5,
-                  "endLine": 93,
-                  "endColumn": 9
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 101,
-                  "startColumn": 4,
-                  "endLine": 101,
-                  "endColumn": 8
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 113,
+                  "startLine": 69,
                   "startColumn": 26,
-                  "endLine": 113,
+                  "endLine": 69,
                   "endColumn": 30
                 }
               }
@@ -186,96 +81,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Draw/Program.cs",
                 "region": {
-                  "startLine": 115,
+                  "startLine": 71,
                   "startColumn": 12,
-                  "endLine": 115,
+                  "endLine": 71,
                   "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1199",
-          "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 189,
-                  "startColumn": 2,
-                  "endLine": 189,
-                  "endColumn": 3
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1199",
-          "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 197,
-                  "startColumn": 2,
-                  "endLine": 197,
-                  "endColumn": 3
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1199",
-          "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 205,
-                  "startColumn": 2,
-                  "endLine": 205,
-                  "endColumn": 3
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1199",
-          "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Connect%204/Program.cs",
-                "region": {
-                  "startLine": 214,
-                  "startColumn": 2,
-                  "endLine": 214,
-                  "endColumn": 3
                 }
               }
             }
@@ -286,23 +97,6 @@
         }
       ],
       "rules": {
-        "S1199": {
-          "id": "S1199",
-          "shortDescription": "Nested code blocks should not be used",
-          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
         "S907": {
           "id": "S907",
           "shortDescription": "\"goto\" statement should not be used",

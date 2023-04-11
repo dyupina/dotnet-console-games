@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>Role Playing Game</ProjectName>
+  <ProjectName>Blackjack</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>65e8ea9c-4dbd-406b-8d65-6e9569726f3e</ProjectGuid>
-  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Role Playing Game.csproj</FullPath>
+  <ProjectGuid>bdfb0587-733e-4f0b-ba7d-3f37a977efe4</ProjectGuid>
+  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Blackjack\Blackjack.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\conf\34\FilesToAnalyze.txt" />

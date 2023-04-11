@@ -1,4 +1,7 @@
-\
-SC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Beep Pad\Program.csutf-8ç
-ÅC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Beep Pad\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8v
-kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Beep Pad\obj\Debug\Beep Pad.AssemblyInfo.csutf-8
+g
+^C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Character.csutf-8b
+YC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Maps.csutf-8e
+\C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Program.csutf-8e
+\C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\Sprites.csutf-8ñ
+äC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8à
+}C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Role Playing Game\obj\Debug\Role Playing Game.AssemblyInfo.csutf-8

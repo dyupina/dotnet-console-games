@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S125",
+          "ruleId": "S1104",
           "level": "warning",
-          "message": "Remove this commented out code.",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
                 "region": {
-                  "startLine": 198,
-                  "startColumn": 6,
-                  "endLine": 198,
-                  "endColumn": 42
+                  "startLine": 202,
+                  "startColumn": 13,
+                  "endLine": 202,
+                  "endColumn": 16
                 }
               }
             }
@@ -35,71 +35,184 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Program' into a named namespace.",
+          "message": "Move 'Note' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
                 "region": {
-                  "startLine": 5,
-                  "startColumn": 7,
-                  "endLine": 5,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1940",
-          "level": "warning",
-          "message": "Use the opposite operator ('<') instead.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
-                "region": {
-                  "startLine": 125,
-                  "startColumn": 9,
-                  "endLine": 131,
-                  "endColumn": 7
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1862",
-          "level": "warning",
-          "message": "This branch duplicates the one on line 245.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
-                "region": {
-                  "startLine": 250,
+                  "startLine": 200,
                   "startColumn": 14,
-                  "endLine": 250,
-                  "endColumn": 75
+                  "endLine": 200,
+                  "endColumn": 18
                 }
               }
             }
           ],
-          "relatedLocations": [
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
             {
-              "physicalLocation": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
                 "region": {
-                  "startLine": 245,
-                  "startColumn": 9,
-                  "endLine": 245,
-                  "endColumn": 70
+                  "startLine": 203,
+                  "startColumn": 13,
+                  "endLine": 203,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 13,
+                  "endLine": 204,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 68,
+                  "startColumn": 13,
+                  "endLine": 68,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 8,
+                  "endLine": 112,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 7,
+                  "endLine": 117,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 5,
+                  "endLine": 137,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 27,
+                  "endLine": 186,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 13,
+                  "endLine": 191,
+                  "endColumn": 17
                 }
               }
             }
@@ -115,12 +228,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
                 "region": {
-                  "startLine": 485,
-                  "startColumn": 4,
-                  "endLine": 485,
-                  "endColumn": 5
+                  "startLine": 59,
+                  "startColumn": 2,
+                  "endLine": 59,
+                  "endColumn": 3
                 }
               }
             }
@@ -136,12 +249,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
                 "region": {
-                  "startLine": 505,
-                  "startColumn": 4,
-                  "endLine": 505,
-                  "endColumn": 5
+                  "startLine": 182,
+                  "startColumn": 2,
+                  "endLine": 182,
+                  "endColumn": 3
                 }
               }
             }
@@ -152,63 +265,28 @@
         }
       ],
       "rules": {
-        "S1199": {
-          "id": "S1199",
-          "shortDescription": "Nested code blocks should not be used",
-          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
+              "MainSourceScope"
             ]
           }
         },
-        "S125": {
-          "id": "S125",
-          "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+        "S1199": {
+          "id": "S1199",
+          "shortDescription": "Nested code blocks should not be used",
+          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1862": {
-          "id": "S1862",
-          "shortDescription": "Related \"if/else if\" statements should not have the same condition",
-          "fullDescription": "A chain of if/else if statements is evaluated from top to bottom. At most, only one branch will be executed: the first one with a condition that evaluates to true.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1862",
-          "properties": {
-            "category": "Major Bug",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1940": {
-          "id": "S1940",
-          "shortDescription": "Boolean checks should not be inverted",
-          "fullDescription": "It is needlessly complex to invert the result of a boolean comparison. The opposite comparison should be made instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1940",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
@@ -228,6 +306,23 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
           "properties": {
             "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S907": {
+          "id": "S907",
+          "shortDescription": "\"goto\" statement should not be used",
+          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
+          "properties": {
+            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -1,1 +1,0 @@
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\out\88
