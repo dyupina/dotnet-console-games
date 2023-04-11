@@ -1,2 +1,0 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\README.md

@@ -1,3 +1,0 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Type\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Type\Words.txt
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Type\README.md

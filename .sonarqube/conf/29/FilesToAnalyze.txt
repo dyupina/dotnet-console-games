@@ -1,2 +1,0 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Roll And Move\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Roll And Move\README.md

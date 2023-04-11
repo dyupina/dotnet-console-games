@@ -1,2 +1,0 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Whack A Mole\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Whack A Mole\README.md
