@@ -1,4 +1,4 @@
-[
-RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Mancala\Program.csutf-8å
-ÄC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Mancala\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8t
-iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Mancala\obj\Debug\Mancala.AssemblyInfo.csutf-8
+^
+UC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\Program.csutf-8è
+ÉC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8z
+oC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\obj\Debug\Quick Draw.AssemblyInfo.csutf-8

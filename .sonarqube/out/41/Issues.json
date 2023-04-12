@@ -140,6 +140,27 @@
         {
           "ruleId": "S2223",
           "level": "warning",
+          "message": "Change the visibility of 'ScreenWidth' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 638,
+                  "startColumn": 20,
+                  "endLine": 638,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
           "message": "Change the visibility of 'CrosshairHeight' or make it 'const' or 'readonly'.",
           "locations": [
             {
@@ -224,48 +245,6 @@
         {
           "ruleId": "S2223",
           "level": "warning",
-          "message": "Change the visibility of 'ScreenWidth' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 638,
-                  "startColumn": 20,
-                  "endLine": 638,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'TreeHeight' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 698,
-                  "startColumn": 21,
-                  "endLine": 698,
-                  "endColumn": 31
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
           "message": "Change the visibility of 'TreeWidth' or make it 'const' or 'readonly'.",
           "locations": [
             {
@@ -276,27 +255,6 @@
                   "startColumn": 21,
                   "endLine": 699,
                   "endColumn": 30
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'Crosshair' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 658,
-                  "startColumn": 24,
-                  "endLine": 658,
-                  "endColumn": 33
                 }
               }
             }
@@ -339,6 +297,48 @@
                   "startColumn": 21,
                   "endLine": 751,
                   "endColumn": 26
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'Crosshair' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 658,
+                  "startColumn": 24,
+                  "endLine": 658,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'TreeHeight' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 698,
+                  "startColumn": 21,
+                  "endLine": 698,
+                  "endColumn": 31
                 }
               }
             }
@@ -453,27 +453,6 @@
           }
         },
         {
-          "ruleId": "S2223",
-          "level": "warning",
-          "message": "Change the visibility of 'RightSprites' or make it 'const' or 'readonly'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
-                "region": {
-                  "startLine": 727,
-                  "startColumn": 26,
-                  "endLine": 727,
-                  "endColumn": 38
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1854",
           "level": "warning",
           "message": "Remove this useless assignment to local variable 'y'.",
@@ -486,6 +465,27 @@
                   "startColumn": 33,
                   "endLine": 386,
                   "endColumn": 36
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2223",
+          "level": "warning",
+          "message": "Change the visibility of 'RightSprites' or make it 'const' or 'readonly'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Duck%20Hunt/Program.cs",
+                "region": {
+                  "startLine": 727,
+                  "startColumn": 26,
+                  "endLine": 727,
+                  "endColumn": 38
                 }
               }
             }

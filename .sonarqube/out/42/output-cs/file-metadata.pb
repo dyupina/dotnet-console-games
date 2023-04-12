@@ -1,12 +1,112 @@
-Z
-QC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Board.csutf-8Y
-PC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Game.csutf-8Y
-PC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Move.csutf-8Z
-QC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Piece.csutf-8_
-VC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\PieceColor.csutf-8[
-RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Player.csutf-8\
-SC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Program.csutf-8\
-SC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Statics.csutf-8[
-RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\_using.csutf-8ç
-ÅC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8v
-kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\obj\Debug\Checkers.AssemblyInfo.csutf-8
+r
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\AudioController.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\CharacterBase.csutf-8s
+jC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\InteractableBase.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\ItemBase.csutf-8j
+aC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\MapBase.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\MonsterBase.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\MoveBase.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\SignBase.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\BattleSystem.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Camper.csutf-8r
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\ChineseMan.csutf-8q
+hC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\CopyPaste.csutf-8r
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\LittleGirl.csutf-8u
+lC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\MartialArtist.csutf-8l
+cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Monk.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Nurse.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\OldMan.csutf-8o
+fC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Samurai.csutf-8q
+hC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Scientist.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Enums\DamageType.csutf-8j
+aC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Enums\Element.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Candle.csutf-8t
+kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\ExperienceBerries.csutf-8t
+kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\HealthPotionLarge.csutf-8u
+lC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\HealthPotionMedium.csutf-8t
+kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\HealthPotionSmall.csutf-8f
+]C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Key.csutf-8g
+^C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Leaf.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\MonsterBox.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Mushroom.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Center1.csutf-8h
+_C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\House1.csutf-8s
+jC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\House1SecondFloor.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\PaletTown.csutf-8h
+_C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Route1.csutf-8h
+_C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Route2.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Western.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Ant.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Bat.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Butterfly1.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Butterfly2.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Butterfly3.csutf-8l
+cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Cactus.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Camel.csutf-8r
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\CannonTurtle.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Chopper.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Chopster.csutf-8j
+aC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Crab.csutf-8r
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\CreepyHugger.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\DirtWorm.csutf-8r
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\DirtWormTrio.csutf-8j
+aC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Duck.csutf-8v
+mC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ElecticBearThing.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Elephant.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Fairy.csutf-8o
+fC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireHorse.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireLizard.csutf-8q
+hC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireLizard2.csutf-8q
+hC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireLizard3.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Flower1.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Flower2.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Fox.csutf-8j
+aC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Goat.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Ladybug.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Magneto.csutf-8o
+fC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Marsupial.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Musikradio.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Owl.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Pig.csutf-8o
+fC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\PlantFace.csutf-8o
+fC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\RockBall1.csutf-8o
+fC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\RockBall2.csutf-8o
+fC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\RockBall3.csutf-8l
+cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Snake1.csutf-8l
+cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Snake2.csutf-8l
+cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Spider.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Squid.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Starfish.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Tails.csutf-8r
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ThunderMouse.csutf-8q
+hC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ToadBlossom.csutf-8m
+dC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ToadBud.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ToadFlower.csutf-8l
+cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Tongue.csutf-8l
+cC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Turtle.csutf-8p
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\WaterSnail.csutf-8k
+bC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Whale.csutf-8t
+kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\WhatIsInTheBox.csutf-8h
+_C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Moves\Punch.csutf-8j
+aC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Moves\Scratch.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Moves\Tackle.csutf-8c
+ZC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Player.csutf-8d
+[C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Program.csutf-8q
+hC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\BattleScreen.csutf-8u
+lC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\BattleTransition.csutf-8t
+kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\InventoryScreen.csutf-8n
+eC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\MapScreen.csutf-8w
+nC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\ColorsScreen.csutf-8y
+pC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\ControlsScreen.csutf-8x
+oC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\OptionsScreen.csutf-8v
+mC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\StartScreen.csutf-8d
+[C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Sprites.csutf-8d
+[C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Statics.csutf-8i
+`C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\UserKeyPress.csutf-8u
+lC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\AsciiGenerator.csutf-8u
+lC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\ConsoleHelpers.csutf-8q
+hC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\Extensions.csutf-8t
+kC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\ScreenHelpers.csutf-8c
+ZC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\_using.csutf-8ï
+âC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8Ü
+{C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\obj\Debug\Console Monsters.AssemblyInfo.csutf-8

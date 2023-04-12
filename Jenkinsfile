@@ -62,12 +62,12 @@ node {
                         // bat 'dotnet build'
                         // bat 'dotnet sonarscanner end /d:sonar.login="sqa_24a2660ebf59e3807546526b8cf527c7991e4929"'
 
-/*
-dotnet sonarscanner begin /k:"fcgh" /d:sonar.host.url="http://127.0.0.1:9000"  /d:sonar.login="sqp_b4b78b82a622dd656910d4b95a50049ce8997868"
-dotnet build
-dotnet sonarscanner end /d:sonar.login="sqp_b4b78b82a622dd656910d4b95a50049ce8997868"
+                        /*
+                        dotnet sonarscanner begin /k:"fcgh" /d:sonar.host.url="http://127.0.0.1:9000"  /d:sonar.login="sqp_b4b78b82a622dd656910d4b95a50049ce8997868"
+                        dotnet build
+                        dotnet sonarscanner end /d:sonar.login="sqp_b4b78b82a622dd656910d4b95a50049ce8997868"
 
-*/  
+                        */  
 
 
                         bat "dotnet ${scannerHome}\\SonarScanner.MSBuild.dll begin /k:\"Games\""
@@ -86,6 +86,15 @@ dotnet sonarscanner end /d:sonar.login="sqp_b4b78b82a622dd656910d4b95a50049ce899
                 
             }
 
+        }
+
+
+
+
+        stage("Quality gate") {
+            steps {
+                waitForQualityGate abortPipeline: true
+            }
         }
 
     }

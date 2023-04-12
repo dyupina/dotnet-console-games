@@ -96,27 +96,6 @@
           }
         },
         {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Maze' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 79,
-                  "startColumn": 21,
-                  "endLine": 79,
-                  "endColumn": 25
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1121",
           "level": "warning",
           "message": "Extract the assignment of 'previousMove' from this expression.",
@@ -222,6 +201,27 @@
           }
         },
         {
+          "ruleId": "S3903",
+          "level": "warning",
+          "message": "Move 'Maze' into a named namespace.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "region": {
+                  "startLine": 79,
+                  "startColumn": 21,
+                  "endLine": 79,
+                  "endColumn": 25
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S1210",
           "level": "warning",
           "message": "When implementing IComparable<T>, you should also override Equals, ==, !=, <, <=, >, >=.",
@@ -243,6 +243,27 @@
           }
         },
         {
+          "ruleId": "S3358",
+          "level": "warning",
+          "message": "Extract this nested ternary operation into an independent statement.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "region": {
+                  "startLine": 579,
+                  "startColumn": 4,
+                  "endLine": 580,
+                  "endColumn": 21
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S2245",
           "level": "warning",
           "message": "Make sure that using this pseudorandom number generator is safe here.",
@@ -255,6 +276,27 @@
                   "startColumn": 16,
                   "endLine": 469,
                   "endColumn": 28
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2368",
+          "level": "warning",
+          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "region": {
+                  "startLine": 575,
+                  "startColumn": 23,
+                  "endLine": 575,
+                  "endColumn": 29
                 }
               }
             }
@@ -297,48 +339,6 @@
                   "startColumn": 3,
                   "endLine": 242,
                   "endColumn": 4
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3358",
-          "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 579,
-                  "startColumn": 4,
-                  "endLine": 580,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2368",
-          "level": "warning",
-          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 575,
-                  "startColumn": 23,
-                  "endLine": 575,
-                  "endColumn": 29
                 }
               }
             }

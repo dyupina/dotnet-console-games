@@ -1,4 +1,4 @@
-_
-VC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Minesweeper\Program.csutf-8ê
-ÑC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Minesweeper\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8|
-qC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Minesweeper\obj\Debug\Minesweeper.AssemblyInfo.csutf-8
+[
+RC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Hurdles\Program.csutf-8å
+ÄC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Hurdles\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8t
+iC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Hurdles\obj\Debug\Hurdles.AssemblyInfo.csutf-8

@@ -12,18 +12,94 @@
       },
       "results": [
         {
+          "ruleId": "S125",
+          "level": "warning",
+          "message": "Remove this commented out code.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "region": {
+                  "startLine": 198,
+                  "startColumn": 6,
+                  "endLine": 198,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Ball' into a named namespace.",
+          "message": "Move 'Program' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 199,
+                  "startLine": 5,
+                  "startColumn": 7,
+                  "endLine": 5,
+                  "endColumn": 14
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1940",
+          "level": "warning",
+          "message": "Use the opposite operator ('<') instead.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "region": {
+                  "startLine": 125,
+                  "startColumn": 9,
+                  "endLine": 131,
+                  "endColumn": 7
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1862",
+          "level": "warning",
+          "message": "This branch duplicates the one on line 245.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "region": {
+                  "startLine": 250,
                   "startColumn": 14,
-                  "endLine": 199,
-                  "endColumn": 18
+                  "endLine": 250,
+                  "endColumn": 75
+                }
+              }
+            }
+          ],
+          "relatedLocations": [
+            {
+              "physicalLocation": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "region": {
+                  "startLine": 245,
+                  "startColumn": 9,
+                  "endLine": 245,
+                  "endColumn": 70
                 }
               }
             }
@@ -33,18 +109,18 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S1199",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Extract this nested code block into a separate method.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 201,
-                  "startColumn": 15,
-                  "endLine": 201,
-                  "endColumn": 16
+                  "startLine": 485,
+                  "startColumn": 4,
+                  "endLine": 485,
+                  "endColumn": 5
                 }
               }
             }
@@ -54,102 +130,18 @@
           }
         },
         {
-          "ruleId": "S1104",
+          "ruleId": "S1199",
           "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "message": "Extract this nested code block into a separate method.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
                 "region": {
-                  "startLine": 202,
-                  "startColumn": 15,
-                  "endLine": 202,
-                  "endColumn": 16
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 203,
-                  "startColumn": 15,
-                  "endLine": 203,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1104",
-          "level": "warning",
-          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 204,
-                  "startColumn": 15,
-                  "endLine": 204,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2184",
-          "level": "warning",
-          "message": "Cast one of the operands of this division to 'float'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 165,
-                  "startColumn": 12,
-                  "endLine": 165,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2184",
-          "level": "warning",
-          "message": "Cast one of the operands of this division to 'float'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Pong/Program.cs",
-                "region": {
-                  "startLine": 166,
-                  "startColumn": 12,
-                  "endLine": 166,
-                  "endColumn": 22
+                  "startLine": 505,
+                  "startColumn": 4,
+                  "endLine": 505,
+                  "endColumn": 5
                 }
               }
             }
@@ -160,30 +152,65 @@
         }
       ],
       "rules": {
-        "S1104": {
-          "id": "S1104",
-          "shortDescription": "Fields should not have public accessibility",
-          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+        "S1199": {
+          "id": "S1199",
+          "shortDescription": "Nested code blocks should not be used",
+          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "TestSourceScope"
             ]
           }
         },
-        "S2184": {
-          "id": "S2184",
-          "shortDescription": "Results of integer division should not be assigned to floating point variables",
-          "fullDescription": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
+        "S125": {
+          "id": "S125",
+          "shortDescription": "Sections of code should not be commented out",
+          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2184",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
           "properties": {
-            "category": "Minor Bug",
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1862": {
+          "id": "S1862",
+          "shortDescription": "Related \"if/else if\" statements should not have the same condition",
+          "fullDescription": "A chain of if/else if statements is evaluated from top to bottom. At most, only one branch will be executed: the first one with a condition that evaluates to true.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1862",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1940": {
+          "id": "S1940",
+          "shortDescription": "Boolean checks should not be inverted",
+          "fullDescription": "It is needlessly complex to invert the result of a boolean comparison. The opposite comparison should be made instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1940",
+          "properties": {
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S125",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this commented out code.",
+          "message": "Move 'Player' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 198,
-                  "startColumn": 6,
-                  "endLine": 198,
-                  "endColumn": 42
+                  "startLine": 406,
+                  "startColumn": 7,
+                  "endLine": 406,
+                  "endColumn": 13
                 }
               }
             }
@@ -35,16 +35,16 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Program' into a named namespace.",
+          "message": "Move 'Bullet' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 5,
+                  "startLine": 412,
                   "startColumn": 7,
-                  "endLine": 5,
-                  "endColumn": 14
+                  "endLine": 412,
+                  "endColumn": 13
                 }
               }
             }
@@ -54,18 +54,18 @@
           }
         },
         {
-          "ruleId": "S1940",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Use the opposite operator ('<') instead.",
+          "message": "Move 'Explosion' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 125,
-                  "startColumn": 9,
-                  "endLine": 131,
-                  "endColumn": 7
+                  "startLine": 419,
+                  "startColumn": 7,
+                  "endLine": 419,
+                  "endColumn": 16
                 }
               }
             }
@@ -75,31 +75,18 @@
           }
         },
         {
-          "ruleId": "S1862",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "This branch duplicates the one on line 245.",
+          "message": "Rename class 'UFO' to match pascal case naming rules, consider using 'Ufo'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 250,
-                  "startColumn": 14,
-                  "endLine": 250,
-                  "endColumn": 75
-                }
-              }
-            }
-          ],
-          "relatedLocations": [
-            {
-              "physicalLocation": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
-                "region": {
-                  "startLine": 245,
-                  "startColumn": 9,
-                  "endLine": 245,
-                  "endColumn": 70
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
+                  "endColumn": 10
                 }
               }
             }
@@ -109,18 +96,18 @@
           }
         },
         {
-          "ruleId": "S1199",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
+          "message": "Move 'UFO' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 485,
-                  "startColumn": 4,
-                  "endLine": 485,
-                  "endColumn": 5
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
+                  "endColumn": 10
                 }
               }
             }
@@ -130,18 +117,18 @@
           }
         },
         {
-          "ruleId": "S1199",
+          "ruleId": "S1121",
           "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
+          "message": "Extract the assignment of 'bulletFrame' from this expression.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Fighter/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 505,
-                  "startColumn": 4,
-                  "endLine": 505,
-                  "endColumn": 5
+                  "startLine": 216,
+                  "startColumn": 27,
+                  "endLine": 216,
+                  "endColumn": 28
                 }
               }
             }
@@ -152,12 +139,12 @@
         }
       ],
       "rules": {
-        "S1199": {
-          "id": "S1199",
-          "shortDescription": "Nested code blocks should not be used",
-          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
@@ -169,48 +156,14 @@
             ]
           }
         },
-        "S125": {
-          "id": "S125",
-          "shortDescription": "Sections of code should not be commented out",
-          "fullDescription": "Programmers should not comment out code as it bloats programs and reduces readability.",
+        "S1121": {
+          "id": "S1121",
+          "shortDescription": "Assignments should not be made from within sub-expressions",
+          "fullDescription": "Assignments within sub-expressions are hard to spot and therefore make the code less readable. Ideally, sub-expressions should not have side-effects.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-125",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1121",
           "properties": {
             "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1862": {
-          "id": "S1862",
-          "shortDescription": "Related \"if/else if\" statements should not have the same condition",
-          "fullDescription": "A chain of if/else if statements is evaluated from top to bottom. At most, only one branch will be executed: the first one with a condition that evaluates to true.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1862",
-          "properties": {
-            "category": "Major Bug",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1940": {
-          "id": "S1940",
-          "shortDescription": "Boolean checks should not be inverted",
-          "fullDescription": "It is needlessly complex to invert the result of a boolean comparison. The opposite comparison should be made instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1940",
-          "properties": {
-            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

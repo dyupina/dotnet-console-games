@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S907",
+          "ruleId": "S3358",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Extract this nested ternary operation into an independent statement.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Type/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Drive/Program.cs",
                 "region": {
-                  "startLine": 146,
+                  "startLine": 131,
                   "startColumn": 6,
-                  "endLine": 146,
-                  "endColumn": 10
+                  "endLine": 133,
+                  "endColumn": 9
                 }
               }
             }
@@ -33,18 +33,60 @@
           }
         },
         {
-          "ruleId": "S1751",
+          "ruleId": "S3358",
           "level": "warning",
-          "message": "Refactor the containing loop to do more than one iteration.",
+          "message": "Extract this nested ternary operation into an independent statement.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Type/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Drive/Program.cs",
                 "region": {
-                  "startLine": 151,
+                  "startLine": 132,
+                  "startColumn": 6,
+                  "endLine": 133,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Drive/Program.cs",
+                "region": {
+                  "startLine": 193,
                   "startColumn": 4,
-                  "endLine": 151,
-                  "endColumn": 13
+                  "endLine": 193,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Drive/Program.cs",
+                "region": {
+                  "startLine": 248,
+                  "startColumn": 12,
+                  "endLine": 248,
+                  "endColumn": 16
                 }
               }
             }
@@ -55,14 +97,14 @@
         }
       ],
       "rules": {
-        "S1751": {
-          "id": "S1751",
-          "shortDescription": "Loops with at most one iteration should be refactored",
-          "fullDescription": "A loop with at most one iteration is equivalent to the use of an if statement to conditionally execute one piece of code. If the initial intention of the author was really to conditionally execute one piece of code, an if statement should be used instead. If that was not the initial intention of the author, the body of the loop should be fixed to use the nested return, break or throw statements in a more appropriate way.",
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1751",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
           "properties": {
-            "category": "Major Bug",
+            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

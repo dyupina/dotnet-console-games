@@ -14,36 +14,15 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Card' into a named namespace.",
+          "message": "Move 'Tile' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tents/Program.cs",
                 "region": {
-                  "startLine": 548,
-                  "startColumn": 7,
-                  "endLine": 548,
-                  "endColumn": 11
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'PlayerHand' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 598,
-                  "startColumn": 7,
-                  "endLine": 598,
+                  "startLine": 429,
+                  "startColumn": 13,
+                  "endLine": 429,
                   "endColumn": 17
                 }
               }
@@ -54,60 +33,18 @@
           }
         },
         {
-          "ruleId": "S3903",
+          "ruleId": "S1854",
           "level": "warning",
-          "message": "Move 'Suit' into a named namespace.",
+          "message": "Remove this useless assignment to local variable 'availableTreeLocations'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tents/Program.cs",
                 "region": {
-                  "startLine": 606,
-                  "startColumn": 6,
-                  "endLine": 606,
-                  "endColumn": 10
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Value' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 614,
-                  "startColumn": 6,
-                  "endLine": 614,
-                  "endColumn": 11
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'State' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 631,
-                  "startColumn": 6,
-                  "endLine": 631,
-                  "endColumn": 11
+                  "startLine": 146,
+                  "startColumn": 57,
+                  "endLine": 146,
+                  "endColumn": 81
                 }
               }
             }
@@ -123,11 +60,32 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tents/Program.cs",
                 "region": {
-                  "startLine": 157,
+                  "startLine": 53,
+                  "startColumn": 26,
+                  "endLine": 53,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tents/Program.cs",
+                "region": {
+                  "startLine": 55,
                   "startColumn": 12,
-                  "endLine": 157,
+                  "endLine": 55,
                   "endColumn": 16
                 }
               }
@@ -138,18 +96,60 @@
           }
         },
         {
-          "ruleId": "S3267",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Loop should be simplified by calling Select(card => card.Value))",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tents/Program.cs",
                 "region": {
-                  "startLine": 342,
-                  "startColumn": 24,
-                  "endLine": 342,
-                  "endColumn": 29
+                  "startLine": 156,
+                  "startColumn": 6,
+                  "endLine": 156,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tents/Program.cs",
+                "region": {
+                  "startLine": 348,
+                  "startColumn": 2,
+                  "endLine": 348,
+                  "endColumn": 3
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Tents/Program.cs",
+                "region": {
+                  "startLine": 359,
+                  "startColumn": 2,
+                  "endLine": 359,
+                  "endColumn": 3
                 }
               }
             }
@@ -160,19 +160,37 @@
         }
       ],
       "rules": {
-        "S3267": {
-          "id": "S3267",
-          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
-          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+        "S1199": {
+          "id": "S1199",
+          "shortDescription": "Nested code blocks should not be used",
+          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
           "properties": {
             "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1854": {
+          "id": "S1854",
+          "shortDescription": "Unused assignments should be removed",
+          "fullDescription": "A dead store happens when a local variable is assigned a value that is not read by any subsequent instruction. Calculating or retrieving a value only to then overwrite it or throw it away, could indicate a serious error in the code. Even if it’s not an error, it is at best a waste of resources. Therefore all calculated values should be used.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1854",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
             ]
           }
         },

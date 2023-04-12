@@ -12,81 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S3903",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Move 'Ghost' into a named namespace.",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
                 "region": {
-                  "startLine": 624,
-                  "startColumn": 7,
-                  "endLine": 624,
-                  "endColumn": 12
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Direction' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
-                "region": {
-                  "startLine": 637,
-                  "startColumn": 6,
-                  "endLine": 637,
-                  "endColumn": 15
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3358",
-          "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
-                "region": {
-                  "startLine": 356,
-                  "startColumn": 6,
-                  "endLine": 357,
-                  "endColumn": 7
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3358",
-          "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
-                "region": {
-                  "startLine": 360,
-                  "startColumn": 6,
-                  "endLine": 361,
-                  "endColumn": 7
+                  "startLine": 63,
+                  "startColumn": 4,
+                  "endLine": 63,
+                  "endColumn": 8
                 }
               }
             }
@@ -102,12 +39,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
                 "region": {
-                  "startLine": 224,
-                  "startColumn": 30,
-                  "endLine": 224,
-                  "endColumn": 34
+                  "startLine": 92,
+                  "startColumn": 5,
+                  "endLine": 92,
+                  "endColumn": 9
                 }
               }
             }
@@ -123,11 +60,53 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
                 "region": {
-                  "startLine": 226,
-                  "startColumn": 16,
-                  "endLine": 226,
+                  "startLine": 96,
+                  "startColumn": 5,
+                  "endLine": 96,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2184",
+          "level": "warning",
+          "message": "Cast one of the operands of this division to 'float'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
+                "region": {
+                  "startLine": 42,
+                  "startColumn": 10,
+                  "endLine": 42,
+                  "endColumn": 19
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2184",
+          "level": "warning",
+          "message": "Cast one of the operands of this division to 'float'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
+                "region": {
+                  "startLine": 43,
+                  "startColumn": 10,
+                  "endLine": 43,
                   "endColumn": 20
                 }
               }
@@ -138,17 +117,80 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S1199",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Extract this nested code block into a separate method.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
                 "region": {
-                  "startLine": 233,
-                  "startColumn": 2,
-                  "endLine": 233,
+                  "startLine": 102,
+                  "startColumn": 3,
+                  "endLine": 102,
+                  "endColumn": 4
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
+                "region": {
+                  "startLine": 104,
+                  "startColumn": 4,
+                  "endLine": 104,
+                  "endColumn": 5
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
+                "region": {
+                  "startLine": 150,
+                  "startColumn": 4,
+                  "endLine": 150,
+                  "endColumn": 5
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
+                "region": {
+                  "startLine": 152,
+                  "startColumn": 5,
+                  "endLine": 152,
                   "endColumn": 6
                 }
               }
@@ -159,18 +201,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S1481",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Remove the unused local variable 'verticalVelocity'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/PacMan/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Flappy%20Bird/Program.cs",
                 "region": {
-                  "startLine": 256,
-                  "startColumn": 13,
-                  "endLine": 256,
-                  "endColumn": 17
+                  "startLine": 153,
+                  "startColumn": 11,
+                  "endLine": 153,
+                  "endColumn": 27
                 }
               }
             }
@@ -181,14 +223,14 @@
         }
       ],
       "rules": {
-        "S3358": {
-          "id": "S3358",
-          "shortDescription": "Ternary operators should not be nested",
-          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+        "S1199": {
+          "id": "S1199",
+          "shortDescription": "Nested code blocks should not be used",
+          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
@@ -198,14 +240,31 @@
             ]
           }
         },
-        "S3903": {
-          "id": "S3903",
-          "shortDescription": "Types should be defined in named namespaces",
-          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+        "S1481": {
+          "id": "S1481",
+          "shortDescription": "Unused local variables should be removed",
+          "fullDescription": "If a local variable is declared but not used, it is dead code and should be removed. Doing so will improve maintainability because developers will not wonder what the variable is used for.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1481",
           "properties": {
-            "category": "Major Bug",
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S2184": {
+          "id": "S2184",
+          "shortDescription": "Results of integer division should not be assigned to floating point variables",
+          "fullDescription": "When division is performed on ints, the result will always be an int. You can assign that result to a double, float or decimal with automatic type conversion, but having started as an int, the result will likely not be what you expect. If the result of int division is assigned to a floating-point variable, precision will have been lost before the assignment. Instead, at least one operand should be cast or promoted to the final type before the operation takes place.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2184",
+          "properties": {
+            "category": "Minor Bug",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
