@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>Hurdles</ProjectName>
+  <ProjectName>Pong</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>58d52662-6928-4978-9f3d-967444e505a3</ProjectGuid>
-  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Hurdles\Hurdles.csproj</FullPath>
+  <ProjectGuid>f9b2a471-640a-4ec1-8068-e811a62f54fb</ProjectGuid>
+  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Pong\Pong.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\conf\2\FilesToAnalyze.txt" />

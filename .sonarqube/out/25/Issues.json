@@ -12,18 +12,39 @@
       },
       "results": [
         {
-          "ruleId": "S3903",
+          "ruleId": "S3358",
           "level": "warning",
-          "message": "Move 'Tile' into a named namespace.",
+          "message": "Extract this nested ternary operation into an independent statement.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Memory/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Quick%20Draw/Program.cs",
                 "region": {
-                  "startLine": 272,
-                  "startColumn": 7,
-                  "endLine": 272,
-                  "endColumn": 11
+                  "startLine": 127,
+                  "startColumn": 4,
+                  "endLine": 128,
+                  "endColumn": 95
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Quick%20Draw/Program.cs",
+                "region": {
+                  "startLine": 136,
+                  "startColumn": 13,
+                  "endLine": 136,
+                  "endColumn": 17
                 }
               }
             }
@@ -34,14 +55,31 @@
         }
       ],
       "rules": {
-        "S3903": {
-          "id": "S3903",
-          "shortDescription": "Types should be defined in named namespaces",
-          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
           "properties": {
-            "category": "Major Bug",
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S907": {
+          "id": "S907",
+          "shortDescription": "\"goto\" statement should not be used",
+          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
+          "properties": {
+            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

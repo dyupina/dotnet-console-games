@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S3358",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Quick%20Draw/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
                 "region": {
-                  "startLine": 127,
+                  "startLine": 71,
                   "startColumn": 4,
-                  "endLine": 128,
-                  "endColumn": 95
+                  "endLine": 71,
+                  "endColumn": 8
                 }
               }
             }
@@ -39,12 +39,201 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Quick%20Draw/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
                 "region": {
-                  "startLine": 136,
-                  "startColumn": 13,
-                  "endLine": 136,
-                  "endColumn": 17
+                  "startLine": 74,
+                  "startColumn": 4,
+                  "endLine": 74,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 4,
+                  "endLine": 77,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 84,
+                  "startColumn": 5,
+                  "endLine": 84,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 114,
+                  "startColumn": 6,
+                  "endLine": 114,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 134,
+                  "startColumn": 6,
+                  "endLine": 134,
+                  "endColumn": 10
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 141,
+                  "startColumn": 4,
+                  "endLine": 141,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 145,
+                  "startColumn": 4,
+                  "endLine": 145,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 147,
+                  "startColumn": 4,
+                  "endLine": 147,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 196,
+                  "startColumn": 4,
+                  "endLine": 196,
+                  "endColumn": 8
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wordle/Program.cs",
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 2,
+                  "endLine": 15,
+                  "endColumn": 3
                 }
               }
             }
@@ -55,14 +244,14 @@
         }
       ],
       "rules": {
-        "S3358": {
-          "id": "S3358",
-          "shortDescription": "Ternary operators should not be nested",
-          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+        "S1199": {
+          "id": "S1199",
+          "shortDescription": "Nested code blocks should not be used",
+          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",

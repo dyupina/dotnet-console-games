@@ -1,10 +1,120 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Board.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Game.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Move.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Piece.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\PieceColor.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Player.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Statics.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\_using.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\README.md
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\AudioController.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\CharacterBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\InteractableBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\ItemBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\MapBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\MonsterBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\MoveBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Bases\SignBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\BattleSystem.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Camper.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\ChineseMan.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\CopyPaste.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\LittleGirl.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\MartialArtist.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Monk.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Nurse.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\OldMan.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Samurai.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Characters\Scientist.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Enums\DamageType.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Enums\Element.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Candle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\ExperienceBerries.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\HealthPotionLarge.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\HealthPotionMedium.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\HealthPotionSmall.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Key.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Leaf.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\MonsterBox.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Items\Mushroom.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Center1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\House1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\House1SecondFloor.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\PaletTown.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Route1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Route2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Maps\Western.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Ant.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Bat.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Butterfly1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Butterfly2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Butterfly3.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Cactus.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Camel.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\CannonTurtle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Chopper.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Chopster.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Crab.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\CreepyHugger.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\DirtWorm.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\DirtWormTrio.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Duck.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ElecticBearThing.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Elephant.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Fairy.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireHorse.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireLizard.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireLizard2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\FireLizard3.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Flower1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Flower2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Fox.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Goat.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Ladybug.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Magneto.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Marsupial.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Musikradio.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Owl.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Pig.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\PlantFace.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\RockBall1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\RockBall2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\RockBall3.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Snake1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Snake2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Spider.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Squid.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Starfish.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Tails.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ThunderMouse.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ToadBlossom.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ToadBud.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\ToadFlower.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Tongue.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Turtle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\WaterSnail.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\Whale.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Monsters\WhatIsInTheBox.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Moves\Punch.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Moves\Scratch.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Moves\Tackle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Player.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\BattleScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\BattleTransition.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\InventoryScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\MapScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\ColorsScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\ControlsScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\OptionsScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Screens\Menus\StartScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Sprites.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Statics.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\UserKeyPress.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\AsciiGenerator.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\ConsoleHelpers.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\Extensions.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Utilities\ScreenHelpers.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\_using.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\CoDA-Lullaby.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\backclick.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\either a cute outdoor place or inside a house - piano.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\either a cute outdoor place or inside a house.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\Enterclick.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\flutemusicidea.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\italienne for game.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\lute-string-melody-ideas.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\Menuclick.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\Audio\spookylandscapewindsfx.wav
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Console Monsters\README.md

@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S1118",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "message": "Move 'Player' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 10,
+                  "startLine": 406,
                   "startColumn": 7,
-                  "endLine": 10,
-                  "endColumn": 14
+                  "endLine": 406,
+                  "endColumn": 13
                 }
               }
             }
@@ -35,163 +35,16 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Program' into a named namespace.",
+          "message": "Move 'Bullet' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 10,
+                  "startLine": 412,
                   "startColumn": 7,
-                  "endLine": 10,
-                  "endColumn": 14
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2346",
-          "level": "warning",
-          "message": "Rename 'Null' to 'None'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 84,
-                  "startColumn": 3,
-                  "endLine": 84,
-                  "endColumn": 11
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3218",
-          "level": "warning",
-          "message": "Rename this class to not shadow the outer class' member with the same name.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 379,
-                  "startColumn": 16,
-                  "endLine": 379,
-                  "endColumn": 20
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1121",
-          "level": "warning",
-          "message": "Extract the assignment of 'previousMove' from this expression.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 291,
-                  "startColumn": 50,
-                  "endLine": 291,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1121",
-          "level": "warning",
-          "message": "Extract the assignment of 'previousMove' from this expression.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 297,
-                  "startColumn": 50,
-                  "endLine": 297,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1121",
-          "level": "warning",
-          "message": "Extract the assignment of 'previousMove' from this expression.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 303,
-                  "startColumn": 50,
-                  "endLine": 303,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1121",
-          "level": "warning",
-          "message": "Extract the assignment of 'previousMove' from this expression.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 309,
-                  "startColumn": 50,
-                  "endLine": 309,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1121",
-          "level": "warning",
-          "message": "Extract the assignment of 'nullStart' from this expression.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 321,
-                  "startColumn": 22,
-                  "endLine": 321,
-                  "endColumn": 23
+                  "endLine": 412,
+                  "endColumn": 13
                 }
               }
             }
@@ -203,16 +56,16 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Maze' into a named namespace.",
+          "message": "Move 'Explosion' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 79,
-                  "startColumn": 21,
-                  "endLine": 79,
-                  "endColumn": 25
+                  "startLine": 419,
+                  "startColumn": 7,
+                  "endLine": 419,
+                  "endColumn": 16
                 }
               }
             }
@@ -222,18 +75,18 @@
           }
         },
         {
-          "ruleId": "S1210",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "When implementing IComparable<T>, you should also override Equals, ==, !=, <, <=, >, >=.",
+          "message": "Rename class 'UFO' to match pascal case naming rules, consider using 'Ufo'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 511,
-                  "startColumn": 26,
-                  "endLine": 511,
-                  "endColumn": 42
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
+                  "endColumn": 10
                 }
               }
             }
@@ -243,18 +96,18 @@
           }
         },
         {
-          "ruleId": "S3358",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Extract this nested ternary operation into an independent statement.",
+          "message": "Move 'UFO' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 579,
-                  "startColumn": 4,
-                  "endLine": 580,
-                  "endColumn": 21
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
+                  "endColumn": 10
                 }
               }
             }
@@ -264,81 +117,18 @@
           }
         },
         {
-          "ruleId": "S2245",
+          "ruleId": "S1121",
           "level": "warning",
-          "message": "Make sure that using this pseudorandom number generator is safe here.",
+          "message": "Extract the assignment of 'bulletFrame' from this expression.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 469,
-                  "startColumn": 16,
-                  "endLine": 469,
+                  "startLine": 216,
+                  "startColumn": 27,
+                  "endLine": 216,
                   "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2368",
-          "level": "warning",
-          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 575,
-                  "startColumn": 23,
-                  "endLine": 575,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1199",
-          "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 139,
-                  "startColumn": 3,
-                  "endLine": 139,
-                  "endColumn": 4
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1199",
-          "level": "warning",
-          "message": "Extract this nested code block into a separate method.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Maze/Program.cs",
-                "region": {
-                  "startLine": 242,
-                  "startColumn": 3,
-                  "endLine": 242,
-                  "endColumn": 4
                 }
               }
             }
@@ -349,14 +139,14 @@
         }
       ],
       "rules": {
-        "S1118": {
-          "id": "S1118",
-          "shortDescription": "Utility classes should not have public constructors",
-          "fullDescription": "Utility classes, which are collections of static members, are not meant to be instantiated.",
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1118",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
           "properties": {
-            "category": "Major Code Smell",
+            "category": "Minor Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
@@ -372,123 +162,6 @@
           "fullDescription": "Assignments within sub-expressions are hard to spot and therefore make the code less readable. Ideally, sub-expressions should not have side-effects.",
           "defaultLevel": "warning",
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1121",
-          "properties": {
-            "category": "Major Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1199": {
-          "id": "S1199",
-          "shortDescription": "Nested code blocks should not be used",
-          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S1210": {
-          "id": "S1210",
-          "shortDescription": "\"Equals\" and the comparison operators should be overridden when implementing \"IComparable\"",
-          "fullDescription": "When you implement IComparable or IComparable<T> on a class you should also override Equals(object) and overload the comparison operators (==, !=, <, <=, >, >=). That’s because the CLR cannot automatically call your CompareTo implementation from Equals(object) or from the base comparison operator implementations. Additionally, it is best practice to override GetHashCode along with Equals.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1210",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope"
-            ]
-          }
-        },
-        "S2245": {
-          "id": "S2245",
-          "shortDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive",
-          "fullDescription": "Using pseudorandom number generators (PRNGs) is security-sensitive. For example, it has led in the past to the following vulnerabilities:",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2245",
-          "properties": {
-            "category": "Critical Security Hotspot",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "NotConfigurable"
-            ]
-          }
-        },
-        "S2346": {
-          "id": "S2346",
-          "shortDescription": "Flags enumerations zero-value members should be named \"None\"",
-          "fullDescription": "Consistent use of \"None\" in flags enumerations indicates that all flag values are cleared. The value 0 should not be used to indicate any other state, since there is no way to check that the bit 0 is set.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2346",
-          "properties": {
-            "category": "Critical Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S2368": {
-          "id": "S2368",
-          "shortDescription": "Public methods should not have multidimensional array parameters",
-          "fullDescription": "Exposing methods with multidimensional array parameters requires developers to have advanced knowledge about the language in order to be able to use them. Moreover, what exactly to pass to such parameters is not intuitive. Therefore, such methods should not be exposed, but can be used internally.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-2368",
-          "properties": {
-            "category": "Blocker Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope"
-            ]
-          }
-        },
-        "S3218": {
-          "id": "S3218",
-          "shortDescription": "Inner class members should not shadow outer class \"static\" or type members",
-          "fullDescription": "It’s possible to name the members of an inner class the same as the static members of its enclosing class - possible, but a bad idea. That’s because maintainers may be confused about which members are being used where. Instead the inner class' members should be renamed and all the references updated.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3218",
-          "properties": {
-            "category": "Critical Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S3358": {
-          "id": "S3358",
-          "shortDescription": "Ternary operators should not be nested",
-          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
           "properties": {
             "category": "Major Code Smell",
             "isEnabledByDefault": true,

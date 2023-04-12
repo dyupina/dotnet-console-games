@@ -18,11 +18,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Simon/Program.cs",
                 "region": {
-                  "startLine": 199,
+                  "startLine": 172,
                   "startColumn": 6,
-                  "endLine": 199,
+                  "endLine": 172,
                   "endColumn": 15
                 }
               }
@@ -33,143 +33,17 @@
           }
         },
         {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Tile' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 207,
-                  "startColumn": 6,
-                  "endLine": 207,
-                  "endColumn": 10
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1116",
-          "level": "warning",
-          "message": "Remove this empty statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 37,
-                  "startColumn": 2,
-                  "endLine": 37,
-                  "endColumn": 3
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1116",
-          "level": "warning",
-          "message": "Remove this empty statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 83,
-                  "startColumn": 3,
-                  "endLine": 83,
-                  "endColumn": 4
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1116",
-          "level": "warning",
-          "message": "Remove this empty statement.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 148,
-                  "startColumn": 3,
-                  "endLine": 148,
-                  "endColumn": 4
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S907",
           "level": "warning",
           "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Simon/Program.cs",
                 "region": {
-                  "startLine": 33,
-                  "startColumn": 23,
-                  "endLine": 33,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 23,
-                  "endLine": 34,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 35,
+                  "startLine": 94,
                   "startColumn": 38,
-                  "endLine": 35,
+                  "endLine": 94,
                   "endColumn": 42
                 }
               }
@@ -186,12 +60,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Simon/Program.cs",
                 "region": {
-                  "startLine": 36,
-                  "startColumn": 32,
-                  "endLine": 36,
-                  "endColumn": 36
+                  "startLine": 97,
+                  "startColumn": 41,
+                  "endLine": 97,
+                  "endColumn": 45
                 }
               }
             }
@@ -207,12 +81,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Simon/Program.cs",
                 "region": {
-                  "startLine": 82,
-                  "startColumn": 33,
-                  "endLine": 82,
-                  "endColumn": 37
+                  "startLine": 100,
+                  "startColumn": 40,
+                  "endLine": 100,
+                  "endColumn": 44
                 }
               }
             }
@@ -228,12 +102,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Simon/Program.cs",
                 "region": {
-                  "startLine": 141,
-                  "startColumn": 24,
-                  "endLine": 141,
-                  "endColumn": 28
+                  "startLine": 103,
+                  "startColumn": 40,
+                  "endLine": 103,
+                  "endColumn": 44
                 }
               }
             }
@@ -249,54 +123,12 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Simon/Program.cs",
                 "region": {
-                  "startLine": 142,
-                  "startColumn": 24,
-                  "endLine": 142,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 147,
-                  "startColumn": 33,
-                  "endLine": 147,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 177,
-                  "startColumn": 2,
-                  "endLine": 177,
-                  "endColumn": 6
+                  "startLine": 109,
+                  "startColumn": 14,
+                  "endLine": 109,
+                  "endColumn": 18
                 }
               }
             }
@@ -307,23 +139,6 @@
         }
       ],
       "rules": {
-        "S1116": {
-          "id": "S1116",
-          "shortDescription": "Empty statements should be removed",
-          "fullDescription": "Empty statements, i.e. ;, are usually introduced by mistake, for example because:",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1116",
-          "properties": {
-            "category": "Minor Code Smell",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
         "S3903": {
           "id": "S3903",
           "shortDescription": "Types should be defined in named namespaces",

@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
-  <ProjectName>Rythm</ProjectName>
+  <ProjectName>Whack A Mole</ProjectName>
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Product</ProjectType>
-  <ProjectGuid>613a6324-c192-49c2-b39c-9475ef14f551</ProjectGuid>
-  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Rythm\Rythm.csproj</FullPath>
+  <ProjectGuid>7bf11797-832f-4d9e-a92b-ea97c5a5ef1d</ProjectGuid>
+  <FullPath>C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Whack A Mole\Whack A Mole.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
     <AnalysisResult Id="FilesToAnalyze" Location="C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\.sonarqube\conf\18\FilesToAnalyze.txt" />

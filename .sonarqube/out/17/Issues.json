@@ -12,18 +12,81 @@
       },
       "results": [
         {
-          "ruleId": "S907",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Move 'Note' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Whack%20A%20Mole/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
                 "region": {
-                  "startLine": 64,
-                  "startColumn": 12,
-                  "endLine": 64,
+                  "startLine": 200,
+                  "startColumn": 14,
+                  "endLine": 200,
+                  "endColumn": 18
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 202,
+                  "startColumn": 13,
+                  "endLine": 202,
                   "endColumn": 16
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 203,
+                  "startColumn": 13,
+                  "endLine": 203,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1104",
+          "level": "warning",
+          "message": "Make this field 'private' and encapsulate it in a 'public' property.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 204,
+                  "startColumn": 13,
+                  "endLine": 204,
+                  "endColumn": 18
                 }
               }
             }
@@ -39,12 +102,159 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Whack%20A%20Mole/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
                 "region": {
-                  "startLine": 102,
+                  "startLine": 68,
                   "startColumn": 13,
-                  "endLine": 102,
+                  "endLine": 68,
                   "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 112,
+                  "startColumn": 8,
+                  "endLine": 112,
+                  "endColumn": 12
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 117,
+                  "startColumn": 7,
+                  "endLine": 117,
+                  "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 5,
+                  "endLine": 137,
+                  "endColumn": 9
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 186,
+                  "startColumn": 27,
+                  "endLine": 186,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 191,
+                  "startColumn": 13,
+                  "endLine": 191,
+                  "endColumn": 17
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 59,
+                  "startColumn": 2,
+                  "endLine": 59,
+                  "endColumn": 3
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1199",
+          "level": "warning",
+          "message": "Extract this nested code block into a separate method.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Rythm/Program.cs",
+                "region": {
+                  "startLine": 182,
+                  "startColumn": 2,
+                  "endLine": 182,
+                  "endColumn": 3
                 }
               }
             }
@@ -55,6 +265,56 @@
         }
       ],
       "rules": {
+        "S1104": {
+          "id": "S1104",
+          "shortDescription": "Fields should not have public accessibility",
+          "fullDescription": "Public fields in public classes do not respect the encapsulation principle and has three main disadvantages:",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1104",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope"
+            ]
+          }
+        },
+        "S1199": {
+          "id": "S1199",
+          "shortDescription": "Nested code blocks should not be used",
+          "fullDescription": "Nested code blocks can be used to create a new scope and restrict the visibility of the variables defined inside it. Using this feature in a method typically indicates that the method has too many responsibilities, and should be refactored into smaller methods.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1199",
+          "properties": {
+            "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3903": {
+          "id": "S3903",
+          "shortDescription": "Types should be defined in named namespaces",
+          "fullDescription": "Types are declared in namespaces in order to prevent name collisions and as a way to organize them into the object hierarchy. Types that are defined outside any named namespace are in a global namespace that cannot be referenced in code.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
+          "properties": {
+            "category": "Major Bug",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
         "S907": {
           "id": "S907",
           "shortDescription": "\"goto\" statement should not be used",

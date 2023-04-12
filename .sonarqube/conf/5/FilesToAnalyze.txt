@@ -1,2 +1,2 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Beep Pad\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Beep Pad\README.md
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Minesweeper\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Minesweeper\README.md
