@@ -1,4 +1,4 @@
-^
-UC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\Program.csutf-8è
-ÉC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8z
-oC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Quick Draw\obj\Debug\Quick Draw.AssemblyInfo.csutf-8
+Z
+QC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Memory\Program.csutf-8ä
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Memory\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.csutf-8r
+gC:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Memory\obj\Debug\Memory.AssemblyInfo.csutf-8

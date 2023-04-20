@@ -285,27 +285,6 @@
           }
         },
         {
-          "ruleId": "S3887",
-          "level": "warning",
-          "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'IdleLeft'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Player.cs",
-                "region": {
-                  "startLine": 222,
-                  "startColumn": 25,
-                  "endLine": 222,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S1118",
           "level": "warning",
           "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
@@ -318,6 +297,27 @@
                   "startColumn": 22,
                   "endLine": 3,
                   "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S3887",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'IdleLeft'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Player.cs",
+                "region": {
+                  "startLine": 222,
+                  "startColumn": 25,
+                  "endLine": 222,
+                  "endColumn": 33
                 }
               }
             }
@@ -381,27 +381,6 @@
                   "startColumn": 25,
                   "endLine": 263,
                   "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Screens/InventoryScreen.cs",
-                "region": {
-                  "startLine": 3,
-                  "startColumn": 16,
-                  "endLine": 3,
-                  "endColumn": 31
                 }
               }
             }
@@ -486,6 +465,27 @@
                   "startColumn": 25,
                   "endLine": 263,
                   "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Screens/InventoryScreen.cs",
+                "region": {
+                  "startLine": 3,
+                  "startColumn": 16,
+                  "endLine": 3,
+                  "endColumn": 31
                 }
               }
             }
@@ -999,27 +999,6 @@
           }
         },
         {
-          "ruleId": "S2368",
-          "level": "warning",
-          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Utilities/Extensions.cs",
-                "region": {
-                  "startLine": 6,
-                  "startColumn": 18,
-                  "endLine": 6,
-                  "endColumn": 21
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
           "ruleId": "S3963",
           "level": "warning",
           "message": "Initialize all 'static fields' inline and remove the 'static constructor'.",
@@ -1032,6 +1011,27 @@
                   "startColumn": 2,
                   "endLine": 26,
                   "endColumn": 3
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S2368",
+          "level": "warning",
+          "message": "Make this method private or simplify its parameters to not use multidimensional/jagged arrays.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Utilities/Extensions.cs",
+                "region": {
+                  "startLine": 6,
+                  "startColumn": 18,
+                  "endLine": 6,
+                  "endColumn": 21
                 }
               }
             }
@@ -1143,6 +1143,27 @@
           }
         },
         {
+          "ruleId": "S3875",
+          "level": "warning",
+          "message": "Remove this overload of 'operator =='.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Bases/ItemBase.cs",
+                "region": {
+                  "startLine": 13,
+                  "startColumn": 30,
+                  "endLine": 13,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S3963",
           "level": "warning",
           "message": "Initialize all 'static fields' inline and remove the 'static constructor'.",
@@ -1164,18 +1185,60 @@
           }
         },
         {
-          "ruleId": "S3875",
+          "ruleId": "S108",
           "level": "warning",
-          "message": "Remove this overload of 'operator =='.",
+          "message": "Either remove or fill this block of code.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Bases/ItemBase.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Maps/Western.cs",
                 "region": {
-                  "startLine": 13,
-                  "startColumn": 30,
-                  "endLine": 13,
-                  "endColumn": 32
+                  "startLine": 54,
+                  "startColumn": 4,
+                  "endLine": 58,
+                  "endColumn": 5
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'tileI' to 'i' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Maps/Center1.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 46,
+                  "endLine": 28,
+                  "endColumn": 51
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S927",
+          "level": "warning",
+          "message": "Rename parameter 'tileJ' to 'j' to match the base class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Maps/Center1.cs",
+                "region": {
+                  "startLine": 28,
+                  "startColumn": 57,
+                  "endLine": 28,
+                  "endColumn": 62
                 }
               }
             }
@@ -1328,69 +1391,6 @@
                   "startColumn": 5,
                   "endLine": 78,
                   "endColumn": 40
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S108",
-          "level": "warning",
-          "message": "Either remove or fill this block of code.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Maps/Western.cs",
-                "region": {
-                  "startLine": 54,
-                  "startColumn": 4,
-                  "endLine": 58,
-                  "endColumn": 5
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'tileI' to 'i' to match the base class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Maps/Center1.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 46,
-                  "endLine": 28,
-                  "endColumn": 51
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S927",
-          "level": "warning",
-          "message": "Rename parameter 'tileJ' to 'j' to match the base class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Console%20Monsters/Maps/Center1.cs",
-                "region": {
-                  "startLine": 28,
-                  "startColumn": 57,
-                  "endLine": 28,
-                  "endColumn": 62
                 }
               }
             }

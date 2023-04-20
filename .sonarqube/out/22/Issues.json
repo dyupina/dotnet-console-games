@@ -12,6 +12,27 @@
       },
       "results": [
         {
+          "ruleId": "S1118",
+          "level": "warning",
+          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
+                "region": {
+                  "startLine": 11,
+                  "startColumn": 22,
+                  "endLine": 11,
+                  "endColumn": 29
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S3887",
           "level": "warning",
           "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'IdleLeft'.",
@@ -36,69 +57,6 @@
           "ruleId": "S3887",
           "level": "warning",
           "message": "Use an immutable collection or reduce the accessibility of the non-private readonly field 'IdleRight'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Sprites.cs",
-                "region": {
-                  "startLine": 323,
-                  "startColumn": 25,
-                  "endLine": 323,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S1118",
-          "level": "warning",
-          "message": "Add a 'protected' constructor or the 'static' keyword to the class declaration.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
-                "region": {
-                  "startLine": 11,
-                  "startColumn": 22,
-                  "endLine": 11,
-                  "endColumn": 29
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2386",
-          "level": "warning",
-          "message": "Use an immutable collection or reduce the accessibility of the public static field 'IdleLeft'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Sprites.cs",
-                "region": {
-                  "startLine": 308,
-                  "startColumn": 25,
-                  "endLine": 308,
-                  "endColumn": 33
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S2386",
-          "level": "warning",
-          "message": "Use an immutable collection or reduce the accessibility of the public static field 'IdleRight'.",
           "locations": [
             {
               "resultFile": {
@@ -180,6 +138,27 @@
           }
         },
         {
+          "ruleId": "S2386",
+          "level": "warning",
+          "message": "Use an immutable collection or reduce the accessibility of the public static field 'IdleLeft'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Sprites.cs",
+                "region": {
+                  "startLine": 308,
+                  "startColumn": 25,
+                  "endLine": 308,
+                  "endColumn": 33
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
           "ruleId": "S907",
           "level": "warning",
           "message": "Remove this use of 'goto'.",
@@ -201,18 +180,18 @@
           }
         },
         {
-          "ruleId": "S3626",
+          "ruleId": "S2386",
           "level": "warning",
-          "message": "Remove this redundant jump.",
+          "message": "Use an immutable collection or reduce the accessibility of the public static field 'IdleRight'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Sprites.cs",
                 "region": {
-                  "startLine": 302,
-                  "startColumn": 5,
-                  "endLine": 302,
-                  "endColumn": 12
+                  "startLine": 323,
+                  "startColumn": 25,
+                  "endLine": 323,
+                  "endColumn": 33
                 }
               }
             }
@@ -243,18 +222,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S3626",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Remove this redundant jump.",
           "locations": [
             {
               "resultFile": {
                 "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
                 "region": {
-                  "startLine": 886,
+                  "startLine": 302,
                   "startColumn": 5,
-                  "endLine": 886,
-                  "endColumn": 9
+                  "endLine": 302,
+                  "endColumn": 12
                 }
               }
             }
@@ -297,6 +276,27 @@
                   "startColumn": 4,
                   "endLine": 350,
                   "endColumn": 11
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "S907",
+          "level": "warning",
+          "message": "Remove this use of 'goto'.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Role%20Playing%20Game/Program.cs",
+                "region": {
+                  "startLine": 886,
+                  "startColumn": 5,
+                  "endLine": 886,
+                  "endColumn": 9
                 }
               }
             }

@@ -1,2 +1,243 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Draw\README.md
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\BlazorConsole.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\2048\2048.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Battleship\Battleship.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Blackjack\Blackjack.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Bound\Bound.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\Board.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\Checkers.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\Game.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\Move.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\Piece.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\PieceColor.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\Player.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Checkers\Statics.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Connect 4\Connect 4.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Bases\CharacterBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Bases\InteractableBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Bases\ItemBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Bases\MapBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Bases\MonsterBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Bases\MoveBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Bases\SignBase.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\BattleSystem.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Characters\MartialArtist.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Characters\Monk.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Characters\Nurse.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Characters\OldMan.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Characters\Scientist.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Console Monsters.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Enums\DamageType.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Enums\Element.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\Candle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\ExperienceBerries.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\HealthPotionLarge.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\HealthPotionMedium.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\HealthPotionSmall.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\Key.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\Leaf.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\MonsterBox.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Items\Mushroom.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Maps\Center1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Maps\House1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Maps\House1SecondFloor.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Maps\PaletTown.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Maps\Route1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Maps\Route2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Ant.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Bat.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Butterfly1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Butterfly2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Butterfly3.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Cactus.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Camel.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\CannonTurtle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Chopper.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Chopster.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Crab.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\CreepyHugger.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\DirtWorm.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\DirtWormTrio.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Duck.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\ElecticBearThing.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Elephant.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Fairy.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\FireHorse.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\FireLizard.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\FireLizard2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\FireLizard3.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Flower1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Flower2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Fox.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Goat.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Ladybug.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Magneto.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Marsupial.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Musikradio.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Owl.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Pig.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\PlantFace.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\RockBall1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\RockBall2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\RockBall3.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Snake1.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Snake2.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Spider.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Squid.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Starfish.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Tails.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\ThunderMouse.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\ToadBlossom.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\ToadBud.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\ToadFlower.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Tongue.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Turtle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\WaterSnail.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\Whale.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Monsters\WhatIsInTheBox.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Moves\Punch.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Moves\Scratch.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Moves\Tackle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Player.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\BattleScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\BattleTransition.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\ConsoleColorSettingsScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\InventoryScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\MapScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\Menus\ControlsScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\Menus\OptionsScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Screens\Menus\StartScreen.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Sprites.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Statics.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Utilities\AsciiGenerator.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Utilities\ConsoleHelpers.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Console Monsters\Utilities\Extensions.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Dice Game\Dice Game.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Draw\Draw.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Drive\Drive.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Duck Hunt\Duck Hunt.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Fighter\Fighter.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Flappy Bird\Flappy Bird.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Guess A Number\Guess A Number.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Hangman\Hangman.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Helicopter\Helicopter.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Hurdles\Hurdles.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Mancala\Mancala.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Maze\Maze.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Memory\Memory.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Minesweeper\Minesweeper.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\PacMan\PacMan.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Pong\Pong.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Quick Draw\Quick Draw.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Rock Paper Scissors\Rock Paper Scissors.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Role Playing game\Character.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Role Playing game\Maps.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Role Playing game\Role Playing Game.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Role Playing game\Sprites.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Roll And Move\Roll And Move.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Rythm\Rythm.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Simon\Simon.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Sliding Puzzle\Sliding Puzzle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Snake\Snake.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Sudoku\Sudoku.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Tanks\Tanks.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Tents\Tents.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Tic Tac Toe\Tic Tac Toe.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Tower Of Hanoi\Tower Of Hanoi.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Tug Of War\Tug Of War.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Type\Type.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Whack A Mole\Whack A Mole.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Wordle\Wordle.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Wumpus World\Wumpus World.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Games\Yahtzee\Yahtzee.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Resources.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\obj\Debug\.NETCoreApp,Version=v6.0.AssemblyAttributes.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\obj\Debug\Website.AssemblyInfo.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\App.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\2048.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Battleship.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Blackjack.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Bound.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Checkers.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Connect 4.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Console Monsters.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Dice Game.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Draw.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Drive.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Duck Hunt.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Fighter.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Flappy Bird.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Guess A Number.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Hangman.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Helicopter.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Hurdles.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Index.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Mancala.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Maze.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Memory.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Minesweeper.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\PacMan.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Pong.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Quick Draw.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Rock Paper Scissors.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Role Playing Game.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Roll And Move.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Rythm.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Simon.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Sliding Puzzle.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Snake.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Sudoku.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Tanks.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Tents.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Tic Tac Toe.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Tower Of Hanoi.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Tug Of War.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Type.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Whack A Mole.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Wordle.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Wumpus World.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Pages\Yahtzee.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Shared\MainLayout.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Shared\NavMenu.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\_Imports.razor
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\404.html
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\app.css
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\bootstrap\bootstrap.min.css
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\bootstrap\bootstrap.min.css.map
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\FONT-LICENSE
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\font\css\open-iconic-bootstrap.min.css
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\font\fonts\open-iconic.eot
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\font\fonts\open-iconic.otf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\font\fonts\open-iconic.svg
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\font\fonts\open-iconic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\font\fonts\open-iconic.woff
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\ICON-LICENSE
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\open-iconic\README.md
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\OFL.txt
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\README.txt
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\SourceCodePro-Italic-VariableFont_wght.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\SourceCodePro-VariableFont_wght.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-Black.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-BlackItalic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-Bold.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-BoldItalic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-ExtraBold.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-ExtraBoldItalic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-ExtraLight.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-ExtraLightItalic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-Italic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-Light.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-LightItalic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-Medium.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-MediumItalic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-Regular.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-SemiBold.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\css\Source_Code_Pro\static\SourceCodePro-SemiBoldItalic.ttf
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\favicon.ico
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\wwwroot\index.html
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Shared\MainLayout.razor.css
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Shared\NavMenu.razor.css
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\FiveLetterWords.txt
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Words.txt
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\BannedSymbols.txt
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Website\Properties\launchSettings.json

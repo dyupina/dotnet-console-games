@@ -14,57 +14,15 @@
         {
           "ruleId": "S3903",
           "level": "warning",
-          "message": "Move 'Card' into a named namespace.",
+          "message": "Move 'Ship' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 548,
-                  "startColumn": 7,
-                  "endLine": 548,
-                  "endColumn": 11
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'PlayerHand' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 598,
-                  "startColumn": 7,
-                  "endLine": 598,
-                  "endColumn": 17
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S3903",
-          "level": "warning",
-          "message": "Move 'Suit' into a named namespace.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
-                "region": {
-                  "startLine": 606,
+                  "startLine": 472,
                   "startColumn": 6,
-                  "endLine": 606,
+                  "endLine": 472,
                   "endColumn": 10
                 }
               }
@@ -75,18 +33,18 @@
           }
         },
         {
-          "ruleId": "S3903",
+          "ruleId": "S3358",
           "level": "warning",
-          "message": "Move 'Value' into a named namespace.",
+          "message": "Extract this nested ternary operation into an independent statement.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 614,
-                  "startColumn": 6,
-                  "endLine": 614,
-                  "endColumn": 11
+                  "startLine": 450,
+                  "startColumn": 9,
+                  "endLine": 452,
+                  "endColumn": 13
                 }
               }
             }
@@ -96,17 +54,17 @@
           }
         },
         {
-          "ruleId": "S3903",
+          "ruleId": "S907",
           "level": "warning",
-          "message": "Move 'State' into a named namespace.",
+          "message": "Remove this use of 'goto'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 631,
-                  "startColumn": 6,
-                  "endLine": 631,
+                  "startLine": 183,
+                  "startColumn": 7,
+                  "endLine": 183,
                   "endColumn": 11
                 }
               }
@@ -123,11 +81,11 @@
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 157,
+                  "startLine": 465,
                   "startColumn": 12,
-                  "endLine": 157,
+                  "endLine": 465,
                   "endColumn": 16
                 }
               }
@@ -138,18 +96,18 @@
           }
         },
         {
-          "ruleId": "S3267",
+          "ruleId": "S1751",
           "level": "warning",
-          "message": "Loop should be simplified by calling Select(card => card.Value))",
+          "message": "Refactor the containing loop to do more than one iteration.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Blackjack/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Battleship/Program.cs",
                 "region": {
-                  "startLine": 342,
-                  "startColumn": 24,
-                  "endLine": 342,
-                  "endColumn": 29
+                  "startLine": 192,
+                  "startColumn": 3,
+                  "endLine": 192,
+                  "endColumn": 12
                 }
               }
             }
@@ -160,19 +118,37 @@
         }
       ],
       "rules": {
-        "S3267": {
-          "id": "S3267",
-          "shortDescription": "Loops should be simplified with \"LINQ\" expressions",
-          "fullDescription": "When a loop is filtering, selecting or aggregating, those functions can be handled with a clearer, more concise LINQ expression instead.",
+        "S1751": {
+          "id": "S1751",
+          "shortDescription": "Loops with at most one iteration should be refactored",
+          "fullDescription": "A loop with at most one iteration is equivalent to the use of an if statement to conditionally execute one piece of code. If the initial intention of the author was really to conditionally execute one piece of code, an if statement should be used instead. If that was not the initial intention of the author, the body of the loop should be fixed to use the nested return, break or throw statements in a more appropriate way.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3267",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1751",
           "properties": {
-            "category": "Minor Code Smell",
+            "category": "Major Bug",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
               "SonarWay",
-              "MainSourceScope"
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S3358": {
+          "id": "S3358",
+          "shortDescription": "Ternary operators should not be nested",
+          "fullDescription": "Just because you can do something, doesn’t mean you should, and that’s the case with nested ternary operations. Nesting ternary operators results in the kind of code that may seem clear as day when you write it, but six months later will leave maintainers (or worse - future you) scratching their heads and cursing.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3358",
+          "properties": {
+            "category": "Major Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
             ]
           }
         },

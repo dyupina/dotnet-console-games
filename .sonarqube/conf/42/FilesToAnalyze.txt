@@ -1,2 +1,10 @@
-﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Duck Hunt\Program.cs
-C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Duck Hunt\README.md
+﻿C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Board.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Game.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Move.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Piece.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\PieceColor.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Player.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Program.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\Statics.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\_using.cs
+C:\ProgramData\Jenkins\.jenkins\workspace\GamePipeline\Projects\Checkers\README.md

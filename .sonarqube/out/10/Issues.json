@@ -12,18 +12,18 @@
       },
       "results": [
         {
-          "ruleId": "S3903",
+          "ruleId": "S1121",
           "level": "warning",
-          "message": "Move 'Direction' into a named namespace.",
+          "message": "Extract the assignment of 'bulletFrame' from this expression.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 199,
-                  "startColumn": 6,
-                  "endLine": 199,
-                  "endColumn": 15
+                  "startLine": 216,
+                  "startColumn": 27,
+                  "endLine": 216,
+                  "endColumn": 28
                 }
               }
             }
@@ -33,17 +33,17 @@
           }
         },
         {
-          "ruleId": "S3903",
+          "ruleId": "S101",
           "level": "warning",
-          "message": "Move 'Tile' into a named namespace.",
+          "message": "Rename class 'UFO' to match pascal case naming rules, consider using 'Ufo'.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 207,
-                  "startColumn": 6,
-                  "endLine": 207,
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
                   "endColumn": 10
                 }
               }
@@ -54,18 +54,18 @@
           }
         },
         {
-          "ruleId": "S1116",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this empty statement.",
+          "message": "Move 'UFO' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 37,
-                  "startColumn": 2,
-                  "endLine": 37,
-                  "endColumn": 3
+                  "startLine": 426,
+                  "startColumn": 7,
+                  "endLine": 426,
+                  "endColumn": 10
                 }
               }
             }
@@ -75,18 +75,18 @@
           }
         },
         {
-          "ruleId": "S1116",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this empty statement.",
+          "message": "Move 'Explosion' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 83,
-                  "startColumn": 3,
-                  "endLine": 83,
-                  "endColumn": 4
+                  "startLine": 419,
+                  "startColumn": 7,
+                  "endLine": 419,
+                  "endColumn": 16
                 }
               }
             }
@@ -96,18 +96,18 @@
           }
         },
         {
-          "ruleId": "S1116",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this empty statement.",
+          "message": "Move 'Player' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 148,
-                  "startColumn": 3,
-                  "endLine": 148,
-                  "endColumn": 4
+                  "startLine": 406,
+                  "startColumn": 7,
+                  "endLine": 406,
+                  "endColumn": 13
                 }
               }
             }
@@ -117,186 +117,18 @@
           }
         },
         {
-          "ruleId": "S907",
+          "ruleId": "S3903",
           "level": "warning",
-          "message": "Remove this use of 'goto'.",
+          "message": "Move 'Bullet' into a named namespace.",
           "locations": [
             {
               "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
+                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Helicopter/Program.cs",
                 "region": {
-                  "startLine": 33,
-                  "startColumn": 23,
-                  "endLine": 33,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 34,
-                  "startColumn": 23,
-                  "endLine": 34,
-                  "endColumn": 27
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 35,
-                  "startColumn": 38,
-                  "endLine": 35,
-                  "endColumn": 42
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 36,
-                  "startColumn": 32,
-                  "endLine": 36,
-                  "endColumn": 36
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 82,
-                  "startColumn": 33,
-                  "endLine": 82,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 141,
-                  "startColumn": 24,
-                  "endLine": 141,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 142,
-                  "startColumn": 24,
-                  "endLine": 142,
-                  "endColumn": 28
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 147,
-                  "startColumn": 33,
-                  "endLine": 147,
-                  "endColumn": 37
-                }
-              }
-            }
-          ],
-          "properties": {
-            "warningLevel": 1
-          }
-        },
-        {
-          "ruleId": "S907",
-          "level": "warning",
-          "message": "Remove this use of 'goto'.",
-          "locations": [
-            {
-              "resultFile": {
-                "uri": "file:///C:/ProgramData/Jenkins/.jenkins/workspace/GamePipeline/Projects/Wumpus%20World/Program.cs",
-                "region": {
-                  "startLine": 177,
-                  "startColumn": 2,
-                  "endLine": 177,
-                  "endColumn": 6
+                  "startLine": 412,
+                  "startColumn": 7,
+                  "endLine": 412,
+                  "endColumn": 13
                 }
               }
             }
@@ -307,14 +139,31 @@
         }
       ],
       "rules": {
-        "S1116": {
-          "id": "S1116",
-          "shortDescription": "Empty statements should be removed",
-          "fullDescription": "Empty statements, i.e. ;, are usually introduced by mistake, for example because:",
+        "S101": {
+          "id": "S101",
+          "shortDescription": "Types should be named in PascalCase",
+          "fullDescription": "Shared naming conventions allow teams to collaborate efficiently. This rule checks whether or not type names are using PascalCase. To reduce noise, two consecutive upper case characters are allowed unless they form the whole type name. So, MyXClass is compliant, but XC on its own is not.",
           "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1116",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-101",
           "properties": {
             "category": "Minor Code Smell",
+            "isEnabledByDefault": true,
+            "tags": [
+              "C#",
+              "SonarWay",
+              "MainSourceScope",
+              "TestSourceScope"
+            ]
+          }
+        },
+        "S1121": {
+          "id": "S1121",
+          "shortDescription": "Assignments should not be made from within sub-expressions",
+          "fullDescription": "Assignments within sub-expressions are hard to spot and therefore make the code less readable. Ideally, sub-expressions should not have side-effects.",
+          "defaultLevel": "warning",
+          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-1121",
+          "properties": {
+            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
@@ -332,23 +181,6 @@
           "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-3903",
           "properties": {
             "category": "Major Bug",
-            "isEnabledByDefault": true,
-            "tags": [
-              "C#",
-              "SonarWay",
-              "MainSourceScope",
-              "TestSourceScope"
-            ]
-          }
-        },
-        "S907": {
-          "id": "S907",
-          "shortDescription": "\"goto\" statement should not be used",
-          "fullDescription": "goto is an unstructured control flow statement. It makes code less readable and maintainable. Structured control flow statements such as if, for, while, continue or break should be used instead.",
-          "defaultLevel": "warning",
-          "helpUri": "https://rules.sonarsource.com/csharp/RSPEC-907",
-          "properties": {
-            "category": "Major Code Smell",
             "isEnabledByDefault": true,
             "tags": [
               "C#",
